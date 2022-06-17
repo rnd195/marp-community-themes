@@ -1,6 +1,6 @@
 ---
-title: Books
-private: true
+title: Themes
+private: false
 ---
 
-Abcdefg
+Lorem ipsum.

@@ -11,25 +11,30 @@ pluralizelisttitles = false
 [params]
   author = "Marp Community Themes"
   description = "Marp Community Themes"
-  message = ""
+  message = "Themes for the markdown presentation ecosystem Marp maintained by the community."
   hideAutoMenu = true
   
   # Pagination options
-  paginate = 9
+  paginate = 15
   multipage = true
 
   # Dark mode
   darkMode = true
+  
+[[menu.main]]
+  name = "Installation"
+  url = "https://github.com"
+  weight = 1
 
 [[menu.main]]
   name = "Marp"
   url = "https://marp.app"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Github"
   url = "https://github.com"
-  weight = 2
+  weight = 3
 
 [social]
   # facebook = "https://facebook.com"
