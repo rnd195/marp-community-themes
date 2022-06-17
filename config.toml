@@ -1,0 +1,38 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Showcase Theme"
+Paginate = 1000
+theme = "showcase"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "Marp Community Themes"
+  description = "Marp Community Themes"
+  message = ""
+  hideAutoMenu = true
+  
+  # Pagination options
+  paginate = 9
+  multipage = true
+
+  # Dark mode
+  darkMode = true
+
+[[menu.main]]
+  name = "Marp"
+  url = "https://marp.app"
+  weight = 1
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com"
+  weight = 2
+
+[social]
+  # facebook = "https://facebook.com"
+  # twitter = "https://twitter.com"
+  # instagram = "https://instagram.com"
+  # linkedin = "https://linkedin.com"
