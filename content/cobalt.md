@@ -1,6 +1,6 @@
 ---
 title: Cobalt
-image: /img/cobalt.png
+image: /img/thumbnail/cobalt.png
 link: /cobalt
 ---
 

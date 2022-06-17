@@ -1,6 +1,6 @@
 ---
 title: Beamer
-image: /img/beamer.png
+image: /img/thumbnail/beamer.png
 link: /beamer
 ---
 
