@@ -4,6 +4,10 @@ This project aims to create a community-maintained theme gallery for [Marp](http
 
 # 2. Installation / Usage
 
+This section shows how to install or use Marp themes. 
+
+After clicking the "Download" button on any theme's page, your browser likely loads the `.css` file instead of downloading it. You can either locally save the `.css` file using `Ctrl + S` or you may copy the URL for further use (see below).
+
 ## 2.1 Marp for VS Code Extension
 
 1. Open Settings in VSCode (`Ctrl + ,`)
@@ -20,8 +24,6 @@ marp: true
 theme: theme_name
 ---
 ```
-
-
 
 ## 2.2 Marp CLI
 
