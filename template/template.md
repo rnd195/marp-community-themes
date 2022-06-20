@@ -1,12 +1,14 @@
 ---
 marp: true
 paginate: true
-size: 16:9
+theme: gradient
+size: 4:3
 header: This is a header
 footer: This is a footer
 title: Testing MD file
 ---
 
+<!-- _class: blue -->
 # Title of the presentation
 
 Author's name

@@ -23,7 +23,7 @@ pluralizelisttitles = false
   
 [[menu.main]]
   name = "Installation"
-  url = "https://github.com"
+  url = "https://github.com/rnd195/marp-community-themes#installation--usage"
   weight = 1
 
 [[menu.main]]
@@ -33,7 +33,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
   name = "Github"
-  url = "https://github.com"
+  url = "https://github.com/rnd195/marp-community-themes"
   weight = 3
 
 [social]
