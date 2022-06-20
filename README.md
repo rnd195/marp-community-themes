@@ -1,14 +1,12 @@
 # Marp Community Themes
 
-This project aims to create a community-maintained theme gallery for [Marp](https://marp.app/). The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/).
+This is a community-maintained theme gallery for [Marp](https://marp.app/). The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/).
 
 # Installation / Usage
 
-This section shows how to install or use Marp themes. 
-
 After clicking the "Download" button on any theme's page, your browser likely loads the `.css` file instead of downloading it. You can either locally save the `.css` file using `Ctrl + S` or you may copy the URL for further use (see below).
 
-## Marp for VS Code Extension
+### Marp for VS Code Extension
 
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for `markdown.marp.themes`
@@ -25,7 +23,7 @@ theme: theme_name
 ---
 ```
 
-## Marp CLI
+### Marp CLI
 
 1. Put the `.css` theme file in the directory of your Markdown document
 2. Use the `--theme` parameter during the export and specify the path to the `.css` file
@@ -35,7 +33,7 @@ theme: theme_name
 
 # Submitting themes
 
-Work in progress.
+Work in progress. This will be done through issues. I will try to add more information soon.
 
 # License
 

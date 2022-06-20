@@ -8,14 +8,16 @@ projecthomepage: https://github.com/rnd195/my-marp-themes
 csslink: https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/beamer.css
 ---
 
-The `beamer` theme tries to mimic the look of LaTeX's Beamer class. As such, it is intended to be used with the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en). It also provides support for a title page, but I am not a web-developer, so breakage should be expected.
+The `beamer` theme *tries* to mimic the look of LaTeX's Beamer class. As such, it is intended to be used with the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en). It also provides support for a title page.
 
 # Custom classes and keywords
 
 `<!-- _class: title -->`
 
 - Changes the layout of the slide to a title page.
+- **The first Heading 1 will be styled as the title.**
 - Make sure to include the underscore "_" so that your whole presentation is not made up of title pages.
+- The title should be no more than 2 lines long, otherwise, it spills over other text.
 
 `<!-- _class: tinytext -->`
 
@@ -31,7 +33,21 @@ The `beamer` theme tries to mimic the look of LaTeX's Beamer class. As such, it 
 
 ![beamer_page-0001](/beamer.assets/beamer_page-0001.jpg)
 
-- `<!-- _class: title -->` needs to be specified for the first slide to look like this
+- `<!-- _class: title -->` needs to be specified for the first slide to look like this. Here is an example of what it could look like
+
+```
+---
+marp: true
+theme: beamer
+---
+<!-- _class: title -->
+
+# Title of the presentation
+
+Author's name
+University of XYZ
+2022-06-19
+```
 
 ![beamer_page-0002](/beamer.assets/beamer_page-0002.jpg)
 

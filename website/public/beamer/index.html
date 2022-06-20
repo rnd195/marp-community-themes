@@ -194,12 +194,14 @@
 		<div class="w-1/12"></div>
 		<div class="w-10/12">
 			<br/>
-			<p>The <code>beamer</code> theme tries to mimic the look of LaTeX&rsquo;s Beamer class. As such, it is intended to be used with the <a href="https://ctan.org/pkg/cm-unicode?lang=en">Computer Modern Unicode font family</a>. It also provides support for a title page, but I am not a web-developer, so breakage should be expected.</p>
+			<p>The <code>beamer</code> theme <em>tries</em> to mimic the look of LaTeX&rsquo;s Beamer class. As such, it is intended to be used with the <a href="https://ctan.org/pkg/cm-unicode?lang=en">Computer Modern Unicode font family</a>. It also provides support for a title page.</p>
 <h1 id="custom-classes-and-keywords">Custom classes and keywords</h1>
 <p><code>&lt;!-- _class: title --&gt;</code></p>
 <ul>
 <li>Changes the layout of the slide to a title page.</li>
+<li><strong>The first Heading 1 will be styled as the title.</strong></li>
 <li>Make sure to include the underscore &ldquo;_&rdquo; so that your whole presentation is not made up of title pages.</li>
+<li>The title should be no more than 2 lines long, otherwise, it spills over other text.</li>
 </ul>
 <p><code>&lt;!-- _class: tinytext --&gt;</code></p>
 <ul>
@@ -214,9 +216,20 @@
 <h1 id="screenshots">Screenshots</h1>
 <p><img src="/beamer.assets/beamer_page-0001.jpg" alt="beamer_page-0001"></p>
 <ul>
-<li><code>&lt;!-- _class: title --&gt;</code> needs to be specified for the first slide to look like this</li>
+<li><code>&lt;!-- _class: title --&gt;</code> needs to be specified for the first slide to look like this. Here is an example of what it could look like</li>
 </ul>
-<p><img src="/beamer.assets/beamer_page-0002.jpg" alt="beamer_page-0002"></p>
+<pre tabindex="0"><code>---
+marp: true
+theme: beamer
+---
+&lt;!-- _class: title --&gt;
+
+# Title of the presentation
+
+Author&#39;s name
+University of XYZ
+2022-06-19
+</code></pre><p><img src="/beamer.assets/beamer_page-0002.jpg" alt="beamer_page-0002"></p>
 <p><img src="/beamer.assets/beamer_page-0003.jpg" alt="beamer_page-0003"></p>
 <p><img src="/beamer.assets/beamer_page-0004.jpg" alt="beamer_page-0004"></p>
 <p><img src="/beamer.assets/beamer_page-0005.jpg" alt="beamer_page-0005"></p>
