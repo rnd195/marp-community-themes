@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-8 mx-auto">
+    {{- partial "custom-message.html" . -}}
+    
+    {{ .Scratch.Set "pages" .Site.Pages }}
+
+    {{ if eq .Site.Params.multipage true }}
+    {{- partial "pagination.html" . -}}
+    {{ else }}
+    {{- partial "no-pagination.html" . -}}
+    {{ end }}
+
+  </div>
+</section>
+
+{{ end }}

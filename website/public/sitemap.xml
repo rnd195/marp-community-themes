@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/beamer/</loc>
+  </url><url>
+    <loc>/border/</loc>
+  </url><url>
+    <loc>/cobalt/</loc>
+  </url><url>
+    <loc>/gradient/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url>
+</urlset>

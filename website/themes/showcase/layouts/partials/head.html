@@ -1,0 +1,98 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ if .Site.Params.Author }}
+  <meta name="author" content="{{ .Site.Params.Author }}" />
+  {{ end }}
+  {{ if .Site.Params.Description }}
+  <meta
+    name="description"
+    content="{{ .Site.Params.Description }}"
+  />
+  {{ end }}
+  <title>{{ .Site.Title }}</title>
+  
+  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
+
+  {{ if .Site.IsServer }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
+  {{ else }}
+    {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+  {{ end }}
+
+  <style>
+    @font-face {
+      font-family: "Bree Serif";
+      src: url("./BreeSerif-Regular.ttf") format("truetype");
+    }
+    .font-bree {
+      font-family: "Bree Serif", serif;
+    }
+    .hide {
+      display: none;
+    }
+    .active {
+      background-color: #4299e1;
+      color: white;
+    }
+    .active:hover {
+      color: white;
+    }
+	a {
+	  color: #3B82F6;
+	}
+	pre {
+	  border: 1px solid #ededed;
+	  padding: 4px 4px 4px 4px;
+	  border-radius: 6px;
+	  white-space: pre-wrap;  
+	  white-space: -moz-pre-wrap;
+	  white-space: -pre-wrap;    
+	  white-space: -o-pre-wrap;  
+	  word-wrap: break-word;
+	  font-size: 0.95em;
+	}
+	code {
+	  padding: 2px 2px 2px 2px;
+	  border: 1px solid #ededed;
+	  border-radius: 6px;
+	  font-size: 0.95em;
+	}
+	p {
+	  line-height: 150%;
+	}
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+	  width: 650px;
+	
+	}
+	h1 {
+	  font-weight: bold;
+	  line-height: 200%;
+	  font-size: 1.25em;
+	}
+	hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	h2 {
+	  font-weight: bold;
+	  line-height: 200%;
+	  font-size: 1.15em;
+	}
+	h3 {
+	  font-weight: bold;
+	  line-height: 200%;
+	  font-size: 1.05em;
+	}
+	li {
+	  list-style: square;
+	  margin-left: 30px;
+	}
+  </style>
+</head>

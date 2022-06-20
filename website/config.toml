@@ -1,0 +1,43 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Marp Community Themes"
+Paginate = 1000
+theme = "showcase"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "Marp Community Themes"
+  description = "Marp Community Themes"
+  message = "Themes for the markdown presentation ecosystem Marp maintained by the community."
+  hideAutoMenu = true
+  
+  # Pagination options
+  paginate = 15
+  multipage = true
+
+  # Dark mode
+  darkMode = true
+  
+[[menu.main]]
+  name = "Installation"
+  url = "https://github.com"
+  weight = 1
+
+[[menu.main]]
+  name = "Marp"
+  url = "https://marp.app"
+  weight = 2
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com"
+  weight = 3
+
+[social]
+  # facebook = "https://facebook.com"
+  # twitter = "https://twitter.com"
+  # instagram = "https://instagram.com"
+  # linkedin = "https://linkedin.com"

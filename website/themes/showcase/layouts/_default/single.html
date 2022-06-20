@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<section class="text-gray-700 body-font dark:text-white">
+  <div class="container px-5 py-8 mx-auto">
+	<div class="flex flex-wrap -m-1 md:-m-2 bg-gray-100 dark:bg-gray-800 justify-center w-full">
+		<div class="grid gap-2 grid-cols-2 w-64">
+			<div class="col-span-2">
+				<h1 class="text-2xl font-bold my-2 text-center">{{ .Title }}</h1>
+				<!-- <a href="#end"> ▼</a> -->
+			</div>
+			<div class="text-center col-span-2">
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-2">
+					<a href={{ printf "%s" $.Params.authorpage }} class="text-white">
+						Author: {{ .Params.authorname }}
+					</a>
+				</button>
+			</div>
+			<div class="col-span-2">
+				{{ if (or .Params.Image .CurrentSection.Params.Image) }}
+				<img alt="{{ .Title }}" class="object-cover object-center h-48 border-2"
+				  src="{{ (or .Params.Image .CurrentSection.Params.Image) }}" />
+				{{ end }}
+			</div>
+			<div>
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
+					<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white">Homepage</a>
+				</button>
+			</div>
+			<div class="text-right">
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
+					<a href={{ printf "%s" $.Params.csslink }} class="text-white">Download</a>
+				</button>
+			</div>
+		</div>
+    </div>
+	<div class="flex">
+		<div class="w-2/12"></div>
+		<div class="w-8/12">
+			<br/>
+			{{ .Content }}
+		</div>
+		<div class="w-2/12"></div>
+	</div>
+  </div>
+</section>
+<!-- <a name="end"></a> -->
+{{ end }}
