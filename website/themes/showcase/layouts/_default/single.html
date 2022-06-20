@@ -5,12 +5,12 @@
 	<div class="flex flex-wrap -m-1 md:-m-2 bg-gray-100 dark:bg-gray-800 justify-center w-full">
 		<div class="grid gap-2 grid-cols-2 w-64">
 			<div class="col-span-2">
-				<h1 class="text-2xl font-bold my-2 text-center">{{ .Title }}</h1>
+				<h1 class="text-3xl font-bold my-2 text-center">{{ .Title }}</h1>
 				<!-- <a href="#end"> ▼</a> -->
 			</div>
 			<div class="text-center col-span-2">
 				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-2">
-					<a href={{ printf "%s" $.Params.authorpage }} class="text-white">
+					<a href={{ printf "%s" $.Params.authorpage }} class="text-white" target="_blank">
 						Author: {{ .Params.authorname }}
 					</a>
 				</button>
@@ -23,12 +23,12 @@
 			</div>
 			<div>
 				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
-					<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white">Homepage</a>
+					<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white" target="_blank">Homepage</a>
 				</button>
 			</div>
 			<div class="text-right">
 				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
-					<a href={{ printf "%s" $.Params.csslink }} class="text-white">Download</a>
+					<a href={{ printf "%s" $.Params.csslink }} class="text-white" target="_blank">Download</a>
 				</button>
 			</div>
 		</div>

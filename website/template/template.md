@@ -1,8 +1,7 @@
 ---
 marp: true
-theme: border
 paginate: true
-size: 4:3
+size: 16:9
 header: This is a header
 footer: This is a footer
 title: Testing MD file

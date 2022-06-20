@@ -5,7 +5,7 @@ link: /border
 authorname: rnd195
 authorpage: https://github.com/rnd195/
 projecthomepage: https://github.com/rnd195/my-marp-themes
-csslink: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/beamer.css
+csslink: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/border.css
 ---
 
 This theme is based on the `default` Marp theme but has some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more changes, see the screenshots below.
