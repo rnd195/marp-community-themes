@@ -6,6 +6,7 @@ authorname: rnd195
 authorpage: https://github.com/rnd195/
 projecthomepage: https://github.com/rnd195/my-marp-themes
 csslink: https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/beamer.css
+license: https://github.com/rnd195/my-marp-themes/blob/main/LICENSE
 ---
 
 The `beamer` theme *tries* to mimic the look of LaTeX's Beamer class. As such, it is intended to be used with the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en). It also provides support for a title page.
@@ -65,4 +66,3 @@ University of XYZ
 
 ![beamer_page-0009](/beamer.assets/beamer_page-0009.jpg)
 
-The theme is provided "as is", without warranty of any kind. Use at your own risk. See the full [license](https://github.com/rnd195/marp-community-themes/blob/main/LICENSE).

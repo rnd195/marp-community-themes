@@ -6,6 +6,7 @@ authorname: rnd195
 authorpage: https://github.com/rnd195/
 projecthomepage: https://github.com/rnd195/my-marp-themes
 csslink: https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/border.css
+license: https://github.com/rnd195/my-marp-themes/blob/main/LICENSE
 ---
 
 This theme is based on the `default` Marp theme but has some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more changes, see the screenshots below.
@@ -41,5 +42,3 @@ This theme is based on the `default` Marp theme but has some notable changes. Ea
 ![template_page-0008](/border.assets/template_page-0008.jpg)
 
 ![template_page-0009](/border.assets/template_page-0009.jpg)
-
-The theme is provided "as is", without warranty of any kind. Use at your own risk. See the full [license](https://github.com/rnd195/marp-community-themes/blob/main/LICENSE).

@@ -38,6 +38,12 @@
 		<div class="w-10/12">
 			<br/>
 			{{ .Content }}
+			<p class="text-right">
+			<!-- Print license only if it is set -->
+			{{ if isset .Params "license" }}
+				<a href={{ printf "%s" $.Params.license }} target="_blank">License of the theme</a>
+			{{ end }}
+			</p>
 		</div>
 		<div class="w-1/12"></div>
 	</div>

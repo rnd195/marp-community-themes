@@ -6,6 +6,7 @@ authorname: rnd195
 authorpage: https://github.com/rnd195/
 projecthomepage: https://github.com/rnd195/my-marp-themes
 csslink: https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/gradient.css
+license: https://github.com/rnd195/my-marp-themes/blob/main/LICENSE
 ---
 
 This theme is based on the `default` Marp theme. The background on each slide is a colorful gradient. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more, see the screenshots below.
@@ -51,5 +52,3 @@ This theme is based on the `default` Marp theme. The background on each slide is
 ![gradient_page-0008](/gradient.assets/gradient_page-0008.jpg)
 
 ![gradient_page-0009](/gradient.assets/gradient_page-0009.jpg)
-
-The theme is provided "as is", without warranty of any kind. Use at your own risk. See the full [license](https://github.com/rnd195/marp-community-themes/blob/main/LICENSE).
