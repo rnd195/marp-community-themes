@@ -1,11 +1,13 @@
 ---
+# This is the front-matter. The framework used for building the website uses these parameters to generate the pages.
+
 # Name of the theme
 title: MyTheme
 
 # Thumbnail visible on the main page. This is a folder inside the repository. Aim for an 800x600px image.
 image: /thumbnail/MyTheme.png
 
-# Link to the theme on the website (e.g., this corresponds to marp-community-themes.vercel.app/MyTheme)
+# Future link to the theme on the website (e.g., this corresponds to marp-community-themes.vercel.app/MyTheme)
 link: /MyTheme
 
 # The name / username of the author. 
@@ -49,9 +51,9 @@ This is probably the most important part. Put up screenshots of your theme here 
 - Try to aim for `800x600px` images for the 4:3 size and around `1067x600px` images for the 16:9 size
 
 - Put the images in a theme-specific folder (`MyTheme.assets`) in the same directory as the Markdown file for your theme
-- Use the standard Markdown syntax for images: `![Alt text](/MyTheme.assets/screenshot1.jpg)`
+- Use the standard Markdown syntax for images: `![Alt text](/MyTheme.assets/screenshot1.jpg)` and make sure that the path begins with "/". Your Markdown editor may not show the image, but the website will.
 
-All in all, the directory with all the files needed for submission may look something like this:
+All in all, the structure of the directory with all the files needed for submission may look something like this:
 
 ```
 MyTheme.assets/       # Folder with N screenshots
@@ -65,7 +67,4 @@ MyTheme.md            # Markdown file about your theme
 MyTheme.css	          # The CSS file of your theme
 ```
 
-Once your submission is accepted, the files related to your theme will reside in the [`website/content/`](https://github.com/rnd195/marp-community-themes/tree/main/website/content) directory and the CSS file will be in the [`themes/`](https://github.com/rnd195/marp-community-themes/tree/main/themes) directory. 
-
-Updates to your screenshots, markdown files, or the CSS file will be preferably done through pull requests.
-
+See [issue #1](https://github.com/rnd195/marp-community-themes/issues/1) for a complete submission example.
