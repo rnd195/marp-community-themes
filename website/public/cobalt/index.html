@@ -17,17 +17,10 @@
 
   
     
-    <link rel="stylesheet" href="/css/main.min.62c592900cedbc354373a4c2c1890bfdff9fa32376f373ee3add400c254ff59c.css" integrity="sha256-YsWSkAztvDVDc6TCwYkL/f+foyN283PuOt1ADCVP9Zw="/>
+    <link rel="stylesheet" href="/css/main.min.a41297ce034ac1cd420b8cd654655de2d34bc09bba2b3236ce4305cb7aa9b854.css" integrity="sha256-pBKXzgNKwc1CC4zWVGVd4tNLwJu6KzI2zkMFy3qpuFQ="/>
   
 
   <style>
-    @font-face {
-      font-family: "Bree Serif";
-      src: url("./BreeSerif-Regular.ttf") format("truetype");
-    }
-    .font-bree {
-      font-family: "Bree Serif", serif;
-    }
     .hide {
       display: none;
     }
@@ -42,21 +35,21 @@
 	  color: #3B82F6;
 	}
 	pre {
-	  border: 1px solid #ededed;
+	  border: 1px solid #dddddd;
 	  padding: 4px 4px 4px 4px;
 	  border-radius: 6px;
-	  white-space: pre-wrap;  
-	  white-space: -moz-pre-wrap;
-	  white-space: -pre-wrap;    
-	  white-space: -o-pre-wrap;  
+	  white-space: pre-wrap;
 	  word-wrap: break-word;
 	  font-size: 0.95em;
+	  background-color: #c3c3c342;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
 	}
 	code {
-	  padding: 2px 2px 2px 2px;
-	  border: 1px solid #ededed;
-	  border-radius: 6px;
+	  padding: 1px 1px 1px 1px;
+	  border-radius: 4px;
 	  font-size: 0.95em;
+	  line-height: 150%;
 	}
 	p {
 	  line-height: 150%;
@@ -65,8 +58,8 @@
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
-	  margin-top: 5px;
-	  margin-bottom: 5px;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
 	  width: 650px;
 	
 	}
@@ -74,6 +67,7 @@
 	  font-weight: bold;
 	  line-height: 200%;
 	  font-size: 1.25em;
+	  margin-top: 0.5em;
 	}
 	hr {
 		margin-top: 10px;
@@ -83,11 +77,13 @@
 	  font-weight: bold;
 	  line-height: 200%;
 	  font-size: 1.15em;
+	  margin-top: 0.2em;
 	}
 	h3 {
 	  font-weight: bold;
 	  line-height: 200%;
 	  font-size: 1.05em;
+	  margin-top: 0.1em;
 	}
 	li {
 	  list-style: square;
@@ -122,7 +118,7 @@
       
       
       <a
-      href="https://github.com"
+      href="https://github.com/rnd195/marp-community-themes#installation--usage"
       class="mr-2 px-2 rounded cursor-pointer select-none text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
 	  target="_blank"
       >Installation</a>
@@ -134,7 +130,7 @@
       >Marp</a>
       
       <a
-      href="https://github.com"
+      href="https://github.com/rnd195/marp-community-themes"
       class="mr-2 px-2 rounded cursor-pointer select-none text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
 	  target="_blank"
       >Github</a>
@@ -166,8 +162,8 @@
 			</div>
 			<div class="text-center col-span-2">
 				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-2">
-					<a href=%25!s%28%3cnil%3e%29 class="text-white" target="_blank">
-						Author: 
+					<a href=https://github.com/rnd195/ class="text-white" target="_blank">
+						Author: rnd195
 					</a>
 				</button>
 			</div>
@@ -179,24 +175,51 @@
 			</div>
 			<div>
 				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
-					<a href=%25!s%28%3cnil%3e%29 class="text-white" target="_blank">Homepage</a>
+					<a href=https://github.com/rnd195/my-marp-themes class="text-white" target="_blank">Homepage</a>
 				</button>
 			</div>
 			<div class="text-right">
 				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
-					<a href=%25!s%28%3cnil%3e%29 class="text-white" target="_blank">Download</a>
+					<a href=https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/cobalt.css class="text-white" target="_blank">Download</a>
 				</button>
 			</div>
 		</div>
     </div>
 	<div class="flex">
-		<div class="w-2/12"></div>
-		<div class="w-8/12">
+		<div class="w-1/12"></div>
+		<div class="w-10/12">
 			<br/>
-			<p>Abcd</p>
+			<p>This theme is based on the <code>cobalt</code> theme made by <a href="https://github.com/elitistsnob/typora-cobalt-theme">Kent Pribbernow</a> for Typora, which was inspired by the Sublime Text theme made by <a href="https://github.com/wesbos/cobalt2">Wes Bos</a>. The <a href="https://fonts.google.com/specimen/Nunito">Nunito</a> font-family is used as the main font.</p>
+<h1 id="custom-classes-and-keywords">Custom classes and keywords</h1>
+<p><code>&lt;!-- _class: tinytext --&gt;</code></p>
+<ul>
+<li>Makes most text on the slide much smaller.</li>
+<li>Might be useful for references.</li>
+</ul>
+<p><code>![center](image.jpg)</code></p>
+<ul>
+<li>By default, images are left-aligned.</li>
+<li>The <code>center</code> keywords centers the image.</li>
+</ul>
+<h1 id="screenshots">Screenshots</h1>
+<p><img src="/cobalt.assets/0001.jpg" alt="0001"></p>
+<p><img src="/cobalt.assets/0002.jpg" alt="0002"></p>
+<p><img src="/cobalt.assets/0003.jpg" alt="0003"></p>
+<p><img src="/cobalt.assets/0004.jpg" alt="0004"></p>
+<p><img src="/cobalt.assets/0005.jpg" alt="0005"></p>
+<p><img src="/cobalt.assets/0006.jpg" alt="0006"></p>
+<p><img src="/cobalt.assets/0007.jpg" alt="0007"></p>
+<p><img src="/cobalt.assets/0008.jpg" alt="0008"></p>
+<p><img src="/cobalt.assets/0009.jpg" alt="0009"></p>
 
+			<p class="text-right">
+			
+			
+				<a href=https://github.com/rnd195/my-marp-themes/blob/main/LICENSE target="_blank">License of the theme</a>
+			
+			</p>
 		</div>
-		<div class="w-2/12"></div>
+		<div class="w-1/12"></div>
 	</div>
   </div>
 </section>
@@ -211,7 +234,7 @@
     >
 	To submit your own theme, follow the link to our Github page.
 	<br />
-	2022 <a href="https://github.com/rnd195/">rnd195</a>. 
+	2022 <a href="https://github.com/rnd195/" target="_blank">rnd195</a>. 
 	Made with <a href="https://gohugo.io/">Hugo</a>. 
 	Based on <a href="https://github.com/apvarun/showcase-hugo-theme">Showcase</a> by <a href="https://github.com/apvarun/">apvarun</a>.
     </p>

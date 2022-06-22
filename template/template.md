@@ -1,14 +1,13 @@
 ---
 marp: true
 paginate: true
-theme: gradient
+theme: cobalt
 size: 4:3
 header: This is a header
 footer: This is a footer
 title: Testing MD file
 ---
 
-<!-- _class: blue -->
 # Title of the presentation
 
 Author's name
@@ -56,7 +55,7 @@ Not centered by default. Writing `center` in the alt text aligns the image, i.e.
 
 Inline code: `print("Hello")`
 
-```python
+```
 print("Hello")
 ```
 
