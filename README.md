@@ -1,6 +1,6 @@
 # Marp Community Themes
 
-This is a community-maintained theme gallery for [Marp](https://marp.app/). The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/). For more information about how to create CSS themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
+This is a community-maintained theme gallery for [Marp](https://marp.app/). The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
 
 Feel free to provide any suggestions in the issues tab.
 
