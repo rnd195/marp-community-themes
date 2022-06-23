@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: cobalt
+theme: border
 size: 4:3
 header: This is a header
 footer: This is a footer

@@ -4,13 +4,13 @@
 # Name of the theme
 title: MyTheme
 
-# Thumbnail visible on the main page. This is a folder inside the repository. Aim for an 800x600px image.
+# Thumbnail visible on the main page. This is a folder inside the repository. Aim for an 800x600px image
 image: /thumbnail/MyTheme.png
 
 # Future link to the theme on the website (e.g., this corresponds to marp-community-themes.vercel.app/MyTheme)
 link: /MyTheme
 
-# The name / username of the author. 
+# The name / username of the author
 authorname: Name of the author
 
 # The website of the author (your personal web, Github profile, mail, ...)
@@ -19,10 +19,10 @@ authorpage: https://github.com/username/
 # Homepage of the project (preferably on Github)
 projecthomepage: https://github.com/username/marp-theme-repository
 
-# Future link to the CSS file in the marp-community-themes repository. You only need to change the very last part of the URL.
+# Future link to the CSS file in the marp-community-themes repository. You only need to change the very last part of the URL
 csslink: https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/MyTheme.css
 
-# License of the theme. Optional, but highly encouraged.
+# License of the theme
 license: https://github.com/username/marp-theme-repository/blob/main/LICENSE
 ---
 
