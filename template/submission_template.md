@@ -1,5 +1,5 @@
 ---
-# This is the front-matter. The framework used for building the website uses these parameters to generate the pages.
+# This is the front-matter. The framework used for building the website uses these parameters to generate the pages. Feel free to delete all the comments.
 
 # Name of the theme
 title: MyTheme

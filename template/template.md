@@ -45,6 +45,8 @@ University of XYZ
 
 # Image
 
+An image of a flower in our garden.
+
 ![center](flower.jpg)
 
 Not centered by default. Writing `center` in the alt text aligns the image, i.e. `![center](flower.jpg)`.
