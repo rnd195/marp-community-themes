@@ -1,4 +1,2 @@
-const cloneDeep = require('lodash/cloneDeep')
-const defaultConfig = require('./stubs/defaultConfig.stub.js')
-
-module.exports = cloneDeep(defaultConfig)
+let defaultConfig = require('./lib/public/default-config')
+module.exports = (defaultConfig.__esModule ? defaultConfig : { default: defaultConfig }).default

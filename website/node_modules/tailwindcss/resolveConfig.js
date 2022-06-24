@@ -1,7 +1,2 @@
-const resolveConfigObjects = require('./lib/util/resolveConfig').default
-const getAllConfigs = require('./lib/util/getAllConfigs').default
-
-module.exports = function resolveConfig(...configs) {
-  const [, ...defaultConfigs] = getAllConfigs(configs[0])
-  return resolveConfigObjects([...configs, ...defaultConfigs])
-}
+let resolveConfig = require('./lib/public/resolve-config')
+module.exports = (resolveConfig.__esModule ? resolveConfig : { default: resolveConfig }).default

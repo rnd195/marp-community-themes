@@ -28,8 +28,8 @@
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.3.1",
     "postcss": "^8.3.5",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^3.1.4"
   }
 }

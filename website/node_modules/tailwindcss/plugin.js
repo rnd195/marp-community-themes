@@ -1,3 +1,2 @@
-const createPlugin = require('./lib/util/createPlugin')
-
+let createPlugin = require('./lib/public/create-plugin')
 module.exports = (createPlugin.__esModule ? createPlugin : { default: createPlugin }).default
