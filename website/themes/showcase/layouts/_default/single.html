@@ -9,11 +9,11 @@
 				<!-- <a href="#end"> ▼</a> -->
 			</div>
 			<div class="text-center col-span-2">
-				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-2">
-					<a href={{ printf "%s" $.Params.authorpage }} class="text-white" target="_blank">
+				<a href={{ printf "%s" $.Params.authorpage }} class="text-white" target="_blank">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-2">
 						Author: {{ .Params.authorname }}
-					</a>
-				</button>
+					</button>
+				</a>
 			</div>
 			<div class="col-span-2">
 				{{ if (or .Params.Image .CurrentSection.Params.Image) }}
@@ -22,14 +22,18 @@
 				{{ end }}
 			</div>
 			<div>
-				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-1">
-					<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white" target="_blank">Project homepage</a>
-				</button>
+				<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white" target="_blank">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-1">
+						Project homepage
+					</button>
+				</a>
 			</div>
 			<div class="text-right">
-				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-1">
-					<a href={{ printf "%s" $.Params.csslink }} class="text-white" target="_blank">Download CSS</a>
-				</button>
+				<a href={{ printf "%s" $.Params.csslink }} class="text-white" target="_blank">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-1">
+						Download CSS
+					</button>
+				</a>
 			</div>
 		</div>
     </div>
