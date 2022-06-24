@@ -16,7 +16,7 @@ After clicking the "Download CSS" button on any theme's page, your browser likel
 2. Search for `markdown.marp.themes`
 3. Add a URL or a local path to the `.css` file
    - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/theme_name.css`
-   - Local path example: `C:/Users/rnd195/marp-themes/theme_name.css`
+   - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
 4. Enable the theme in the front-matter of the Markdown document
 
