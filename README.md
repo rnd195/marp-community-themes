@@ -1,3 +1,5 @@
+24-06-2022 Work in progress. I plan on creating a post about this repository on the Marp discussion forum once everything is ready.
+
 # Marp Community Themes
 
 This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
