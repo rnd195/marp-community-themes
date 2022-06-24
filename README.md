@@ -1,12 +1,14 @@
 # Marp Community Themes
 
-This is a community-maintained theme gallery for [Marp](https://marp.app/). The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
+This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
+
+The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/). It is also greatly inspired by the Typora [theme gallery](https://theme.typora.io/). The [Inter](https://github.com/rsms/inter) font family by [rsms](https://github.com/rsms/) is used as the main font.
 
 Feel free to provide any suggestions in the issues tab.
 
 # Installation / Usage
 
-After clicking the "Download" button on any theme's page, your browser likely loads the `.css` file instead of downloading it. You can either locally save the `.css` file using `Ctrl + S` or you may copy the URL for further use (see below).
+After clicking the "Download CSS" button on any theme's page, your browser likely loads the `.css` file instead of downloading it. You can either locally save the `.css` file using `Ctrl + S` or you may copy the URL for further use (see below).
 
 ### Marp for VS Code Extension
 

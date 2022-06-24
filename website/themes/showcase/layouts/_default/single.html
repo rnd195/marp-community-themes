@@ -2,8 +2,8 @@
 
 <section class="text-gray-700 body-font dark:text-white">
   <div class="container px-5 py-8 mx-auto">
-	<div class="flex flex-wrap -m-1 md:-m-2 bg-gray-100 dark:bg-gray-800 justify-center w-full">
-		<div class="grid gap-2 grid-cols-2 w-64">
+	<div class="flex flex-wrap -m-1 md:-m-2 justify-center w-full">
+		<div class="grid gap-2 grid-cols-2 w-72">
 			<div class="col-span-2">
 				<h1 class="text-3xl font-bold my-2 text-center">{{ .Title }}</h1>
 				<!-- <a href="#end"> ▼</a> -->
@@ -17,18 +17,18 @@
 			</div>
 			<div class="col-span-2">
 				{{ if (or .Params.Image .CurrentSection.Params.Image) }}
-				<img alt="{{ .Title }}" class="object-cover object-center h-48 border-2"
+				<img alt="{{ .Title }}" class="object-cover object-center h-48"
 				  src="{{ (or .Params.Image .CurrentSection.Params.Image) }}" />
 				{{ end }}
 			</div>
 			<div>
-				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
-					<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white" target="_blank">Homepage</a>
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-1">
+					<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white" target="_blank">Project homepage</a>
 				</button>
 			</div>
 			<div class="text-right">
-				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">
-					<a href={{ printf "%s" $.Params.csslink }} class="text-white" target="_blank">Download</a>
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded my-1">
+					<a href={{ printf "%s" $.Params.csslink }} class="text-white" target="_blank">Download CSS</a>
 				</button>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 			<p class="text-right">
 			<!-- Print license only if it is set -->
 			{{ if isset .Params "license" }}
-				<a href={{ printf "%s" $.Params.license }} target="_blank">License of the theme</a>
+				<a href={{ printf "%s" $.Params.license }} target="_blank">Theme license</a>
 			{{ end }}
 			</p>
 		</div>
