@@ -1,3 +1,5 @@
+2022-09-03 Currently reworking theme page layout
+
 # Marp Community Themes
 
 This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
