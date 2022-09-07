@@ -11,18 +11,6 @@ license: https://github.com/rnd195/my-marp-themes/blob/main/LICENSE
 
 This theme is based on the `default` Marp theme but has some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more changes, see the screenshots below.
 
-# Custom classes and keywords
-
-`<!-- _class: tinytext -->`
-
-- Makes most text on the slide much smaller.
-- Might be useful for references.
-
-`![center](image.jpg)`
-
-- By default, images are left-aligned.
-- The `center` keywords centers the image.
-
 # Screenshots
 
 ![template_page-0001](/border.assets/template_page-0001.jpg)
@@ -42,3 +30,15 @@ This theme is based on the `default` Marp theme but has some notable changes. Ea
 ![template_page-0008](/border.assets/template_page-0008.jpg)
 
 ![template_page-0009](/border.assets/template_page-0009.jpg)
+
+# Custom classes and keywords
+
+`<!-- _class: tinytext -->`
+
+- Makes most text on the slide much smaller.
+- Might be useful for references.
+
+`![center](image.jpg)`
+
+- By default, images are left-aligned.
+- The `center` keywords centers the image.

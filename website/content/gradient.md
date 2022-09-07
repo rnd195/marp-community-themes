@@ -11,29 +11,13 @@ license: https://github.com/rnd195/my-marp-themes/blob/main/LICENSE
 
 This theme is based on the `default` Marp theme. The background on each slide is a colorful gradient. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more, see the screenshots below.
 
-# Custom classes and keywords
-
-`<!-- _class: tinytext -->`
-
-- Makes most text on the slide much smaller.
-- Might be useful for references.
-
-`![center](image.jpg)`
-
-- By default, images are left-aligned.
-- The `center` keywords centers the image.
-
-`<!-- _class: blue -->`
-
-- Blue variant of the `gradient` theme.
-
 # Screenshots
 
 ## `class: blue`
 
 ![image-20220620181909443](/gradient.assets/gradient_page-0000.jpg)
 
-## `default`
+## `class: default`
 
 ![gradient_page-0001](/gradient.assets/gradient_page-0001.jpg)
 
@@ -52,3 +36,19 @@ This theme is based on the `default` Marp theme. The background on each slide is
 ![gradient_page-0008](/gradient.assets/gradient_page-0008.jpg)
 
 ![gradient_page-0009](/gradient.assets/gradient_page-0009.jpg)
+
+# Custom classes and keywords
+
+`<!-- _class: tinytext -->`
+
+- Makes most text on the slide much smaller.
+- Might be useful for references.
+
+`![center](image.jpg)`
+
+- By default, images are left-aligned.
+- The `center` keywords centers the image.
+
+`<!-- _class: blue -->`
+
+- Blue variant of the `gradient` theme.
