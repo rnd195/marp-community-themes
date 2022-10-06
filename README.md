@@ -1,4 +1,4 @@
-2022-09-03 Currently reworking theme page layout
+2022-10-06 I am not yet ready to maintain the project regularly and add other themes. I plan on coming back to this in late winter.
 
 # Marp Community Themes
 
