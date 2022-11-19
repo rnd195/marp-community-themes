@@ -8,3 +8,5 @@ TODO
 
 - ~~Make bottom of page nicer~~
 
+- Prepare to maintain the project
+- Link to images externally?
