@@ -1,4 +1,4 @@
-TODO
+# TODO
 
 - ~~Add text to all themes~~
 - ~~Create installation guide~~
@@ -10,3 +10,4 @@ TODO
 
 - Prepare to maintain the project
 - Link to images externally?
+- Consider changing the submission scheme (directly in issues? not zip?)

@@ -56,9 +56,11 @@ export function normalizeConfig(config) {
 
     // When `config.content` is an object
     if (typeof config.content === 'object' && config.content !== null) {
-      // Only `files`, `extract` and `transform` can exist in `config.content`
+      // Only `files`, `relative`, `extract`, and `transform` can exist in `config.content`
       if (
-        Object.keys(config.content).some((key) => !['files', 'extract', 'transform'].includes(key))
+        Object.keys(config.content).some(
+          (key) => !['files', 'relative', 'extract', 'transform'].includes(key)
+        )
       ) {
         return false
       }
@@ -112,6 +114,14 @@ export function normalizeConfig(config) {
         ) {
           return false
         }
+
+        // `config.content.relative` is optional and can be a boolean
+        if (
+          typeof config.content.relative !== 'boolean' &&
+          typeof config.content.relative !== 'undefined'
+        ) {
+          return false
+        }
       }
 
       return true
@@ -140,6 +150,24 @@ export function normalizeConfig(config) {
     return []
   })()
 
+  // Normalize the `blocklist`
+  config.blocklist = (() => {
+    let { blocklist } = config
+
+    if (Array.isArray(blocklist)) {
+      if (blocklist.every((item) => typeof item === 'string')) {
+        return blocklist
+      }
+
+      log.warn('blocklist-invalid', [
+        'The `blocklist` option must be an array of strings.',
+        'https://tailwindcss.com/docs/content-configuration#discarding-classes',
+      ])
+    }
+
+    return []
+  })()
+
   // Normalize prefix option
   if (typeof config.prefix === 'function') {
     log.warn('prefix-function', [
@@ -154,6 +182,16 @@ export function normalizeConfig(config) {
 
   // Normalize the `content`
   config.content = {
+    relative: (() => {
+      let { content } = config
+
+      if (content?.relative) {
+        return content.relative
+      }
+
+      return config.future?.relativeContentPathsByDefault ?? false
+    })(),
+
     files: (() => {
       let { content, purge } = config
 

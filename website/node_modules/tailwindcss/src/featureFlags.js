@@ -3,11 +3,21 @@ import log from './util/log'
 
 let defaults = {
   optimizeUniversalDefaults: false,
+  generalizedModifiers: true,
 }
 
 let featureFlags = {
-  future: ['hoverOnlyWhenSupported', 'respectDefaultRingColorOpacity'],
-  experimental: ['optimizeUniversalDefaults', 'matchVariant' /* , 'variantGrouping' */],
+  future: [
+    'hoverOnlyWhenSupported',
+    'respectDefaultRingColorOpacity',
+    'disableColorOpacityUtilitiesByDefault',
+    'relativeContentPathsByDefault',
+  ],
+  experimental: [
+    'optimizeUniversalDefaults',
+    'generalizedModifiers',
+    // 'variantGrouping',
+  ],
 }
 
 export function flagEnabled(config, flag) {
