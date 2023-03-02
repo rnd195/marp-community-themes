@@ -1,5 +1,3 @@
-2022-10-06 I am not yet ready to maintain the project regularly and add other themes. I plan on coming back to this in late winter.
-
 # Marp Community Themes
 
 This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
