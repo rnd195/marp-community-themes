@@ -16,4 +16,4 @@ options(
 )
 
 # pin Hugo version
-options(blogdown.hugo.version = "0.108.0")
+options(blogdown.hugo.version = "0.111.3")
