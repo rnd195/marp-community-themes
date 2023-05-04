@@ -3,34 +3,34 @@
 <section class="text-gray-700 body-font dark:text-white">
   <div class="container px-5 py-8 mx-auto max-w-5xl">
 	<div class="flex flex-wrap -m-1 md:-m-2 justify-center w-full">
-		<div class="grid gap-2 grid-cols-2 w-96">
+		<div class="grid gap-2 grid-cols-2 w-6/12">
 			<div class="col-span-2">
 				<h1 class="text-3xl font-bold my-2 text-center">{{ .Title }}</h1>
 				<!-- <a href="#end"> ▼</a> -->
 			</div>
 			<div class="text-center col-span-1">
 				<a href={{ printf "%s" $.Params.authorpage }} class="text-white" target="_blank">
-					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded w-full h-full">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded w-full h-16">
 						Author:	{{ .Params.authorname }}
 					</button>
 				</a>
 			</div>
-			<div class="col-span-1 border-2 row-span-3">
+			<div class="col-span-1 border-2 row-span-2 h-36">
 				{{ if (or .Params.Image .CurrentSection.Params.Image) }}
-				<img alt="{{ .Title }}" class="object-cover h-48 m-0"
+				<img alt="{{ .Title }}" class="object-contain h-36 m-0"
 				  src="{{ (or .Params.Image .CurrentSection.Params.Image) }}" />
 				{{ end }}
 			</div>
 			<div class="text-center col-span-1 align-middle">
 				<a href={{ printf "%s" $.Params.projecthomepage }} class="text-white" target="_blank">
-					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded w-full h-full">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded w-full h-16">
 						Project homepage
 					</button>
 				</a>
 			</div>
-			<div class="text-center col-span-1">
+			<div class="text-center col-span-2">
 				<a href={{ printf "%s" $.Params.csslink }} class="text-white" target="_blank">
-					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded w-full h-full">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded w-full h-16">
 						Download CSS
 					</button>
 				</a>
