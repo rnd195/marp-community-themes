@@ -15,7 +15,7 @@ After clicking the "Download CSS" button on any theme's page, your browser likel
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for `markdown.marp.themes`
 3. Add a URL or a local path to the `.css` file
-   - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes/main/themes/theme_name.css`
+   - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/theme_name.css`
    - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
 4. Enable the theme in the front-matter of the Markdown document
@@ -37,7 +37,7 @@ theme: theme_name
 
 # Submitting themes
 
-1. Fill out the [submission template](https://github.com/rnd195/marp-community-themes/blob/main/template/submission_template.md) with all the necessary information. Don't forget to add screenshots and a thumbnail.
+1. Fill out the [submission template](https://github.com/rnd195/marp-community-themes/blob/live/template/submission_template.md) with all the necessary information. Don't forget to add screenshots and a thumbnail.
 2. Create a zip of all the generated files. This file should include:
    - Description of your theme in Markdown
    - CSS file of your theme
@@ -47,7 +47,7 @@ theme: theme_name
 
 See [issue #1](https://github.com/rnd195/marp-community-themes/issues/1) for a complete submission example.
 
-Once your submission is reviewed and accepted, the files related to your theme will reside in the [`website/content/`](https://github.com/rnd195/marp-community-themes/tree/main/website/content) directory and the CSS file will be in the [`themes/`](https://github.com/rnd195/marp-community-themes/tree/main/themes) directory. 
+Once your submission is reviewed and accepted, the files related to your theme will reside in the [`website/content/`](https://github.com/rnd195/marp-community-themes/tree/live/website/content) directory and the CSS file will be in the [`themes/`](https://github.com/rnd195/marp-community-themes/tree/live/themes) directory. 
 
 Updates to your screenshots, Markdown files, or the CSS file should be preferably done through pull requests.
 
@@ -57,4 +57,4 @@ By submitting the theme, you acknowledge that you are the author of the submitte
 
 # License
 
-This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/main/LICENSE).
+This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/live/LICENSE).
