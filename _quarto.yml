@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Marp Community Themes"
+  page-footer:
+    border: false
+    center: 
+      - text: "2023 rnd195."
+        href: https://github.com/rnd195/
+        target: "_blank"
+      - text: "Made with Quarto."
+        href: https://quarto.org/
+        target: "_blank"
+  search: false
+  navbar:
+    right:
+      - text: "Installation"
+        href: https://github.com/rnd195/marp-community-themes#installation--usage
+        target: "_blank"
+      - text: "Marp"
+        href: http://marp.app/
+        target: "_blank"
+      - icon: github
+        href: https://github.com/rnd195/marp-community-themes
+        target: "_blank"
+  site-url: "https://rnd195.github.io/marp-community-themes/"
+  site-path: "/"
+format:
+  html:
+    theme: yeti
+    css: styles.css
+
+

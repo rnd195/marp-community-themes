@@ -9,7 +9,7 @@
 <meta name="author" content="rnd195">
 <meta name="dcterms.date" content="2022-03-26">
 
-<title>Marp Community Themes - Beam</title>
+<title>Marp Community Themes - Gradient</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Beam</h1>
+      <h1 class="title">Gradient</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Light</div>
               </div>
@@ -131,46 +131,34 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-globe"></i>
      <span class="about-link-text">Project homepage</span>
   </a>
-  <a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/beam.css" class="about-link" rel="" target="_blank">
+  <a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/gradient.css" class="about-link" rel="" target="_blank">
     <i class="bi bi-download"></i>
      <span class="about-link-text">Download CSS</span>
   </a>
 </div>
       <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
-<p>The <code>beam</code> theme <em>tries</em> to mimic the look of LaTeX’s <code>beamer</code> class. As such, it is intended to be used with the <a href="https://ctan.org/pkg/cm-unicode?lang=en">Computer Modern Unicode font family</a>. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the <a href="https://github.com/rnd195/my-marp-themes/blob/live/how-to/beam_custom.md">Github repository</a> of the theme.</p>
+<p>This theme is based on the <code>default</code> Marp theme. The background on each slide is a colorful gradient. As the main font, the <a href="https://github.com/rsms/inter">Inter</a> font family is used. For more, see the screenshots below.</p>
 <section id="screenshots" class="level1">
 <h1>Screenshots</h1>
-<p><img src="_beam.assets/beam_page-0001.jpg" class="img-fluid"></p>
-<ul>
-<li><code>&lt;!-- _class: title --&gt;</code> needs to be specified for the first slide to look like this. Here is an example of what it could look like</li>
-</ul>
-<pre><code>---
-marp: true
-theme: beam
----
-&lt;!-- _class: title --&gt;
-# Title of the presentation
-Author's name
-University of XYZ
-2022-06-19</code></pre>
-<p><img src="_beam.assets/beam_page-0002.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0003.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0004.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0005.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0006.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0007.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0008.jpg" class="img-fluid"></p>
-<p><img src="_beam.assets/beam_page-0009.jpg" class="img-fluid"></p>
+<section id="class-blue" class="level2">
+<h2 data-anchor-id="class-blue"><code>class: blue</code></h2>
+<p><img src="gradient.assets/gradient_page-0000.jpg" class="img-fluid"></p>
+</section>
+<section id="class-default" class="level2">
+<h2 data-anchor-id="class-default"><code>class: default</code></h2>
+<p><img src="gradient.assets/gradient_page-0001.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0002.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0003.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0004.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0005.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0006.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0007.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0008.jpg" class="img-fluid"></p>
+<p><img src="gradient.assets/gradient_page-0009.jpg" class="img-fluid"></p>
+</section>
 </section>
 <section id="custom-classes-and-keywords" class="level1">
 <h1>Custom classes and keywords</h1>
-<p><code>&lt;!-- _class: title --&gt;</code></p>
-<ul>
-<li>Changes the layout of the slide to a title page.</li>
-<li><strong>The first Heading 1 will be styled as the title.</strong></li>
-<li>Make sure to include the underscore “_” so that your whole presentation is not made up of title pages.</li>
-<li>The title should be no more than 2 lines long, otherwise, it spills over other text.</li>
-</ul>
 <p><code>&lt;!-- _class: tinytext --&gt;</code></p>
 <ul>
 <li>Makes most text on the slide much smaller.</li>
@@ -181,16 +169,20 @@ University of XYZ
 <li>By default, images are left-aligned.</li>
 <li>The <code>center</code> keywords centers the image.</li>
 </ul>
+<p><code>&lt;!-- _class: blue --&gt;</code></p>
+<ul>
+<li>Blue variant of the <code>gradient</code> theme.</li>
+</ul>
 </section>
 <section id="license" class="level1">
 <h1>License</h1>
-<p>The <code>beamer</code>-inspired <code>beam</code> theme is licensed under <a href="https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_beam">GNU GPLv3</a>.</p>
+<p>This theme is licensed under the <a href="https://github.com/rnd195/my-marp-themes/blob/live/LICENSE">MIT License</a>.</p>
 
 
 </section>
 </main></div>
     </div>
-    <img src="_beam.assets/beam.png" class="about-image
+    <img src="gradient.assets/gradient.png" class="about-image
   rounded " style="width: 15em;">
   </div>
 </div>
