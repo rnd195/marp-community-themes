@@ -13,8 +13,4 @@ listing:
 page-layout: full
 title-block-banner: true
 aliases: ["theme/", "gradient/", "border/"]
-website:
-  page-footer:
-    center: 
-      - text: "About"
 ---
