@@ -10,3 +10,7 @@ else
     echo "✅ - Build can proceed"
   exit 1;
 fi
+
+if [ -d "website/_site" ]; then
+  git diff --quiet HEAD^ HEAD ../../website/_site
+fi
