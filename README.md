@@ -2,7 +2,7 @@
 
 This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
 
-The website is built using [Hugo](https://gohugo.io/) and it is based on the [Showcase](https://github.com/apvarun/showcase-hugo-theme) theme made by [apvarun](https://github.com/apvarun/). It is also greatly inspired by the Typora [theme gallery](https://theme.typora.io/). The [Inter](https://github.com/rsms/inter) font family by [rsms](https://github.com/rsms/) is used as the main font.
+The website is built using [Quarto](https://quarto.org/) and it is inspired by the Typora [theme gallery](https://theme.typora.io/).
 
 Feel free to provide any suggestions in the issues tab.
 
@@ -37,21 +37,7 @@ theme: theme_name
 
 # Submitting themes
 
-1. Fill out the [submission template](https://github.com/rnd195/marp-community-themes/blob/live/template/submission_template.md) with all the necessary information. Don't forget to add screenshots and a thumbnail.
-2. Create a zip of all the generated files. This file should include:
-   - Description of your theme in Markdown
-   - CSS file of your theme
-   - Assets folder with screenshots
-   - Thumbnail folder with the thumbnail
-3. Create an [issue](https://github.com/rnd195/marp-community-themes/issues), assign the `theme submission` label to it, and upload the zip file there.
-
-See [issue #1](https://github.com/rnd195/marp-community-themes/issues/1) for a complete submission example.
-
-Once your submission is reviewed and accepted, the files related to your theme will reside in the [`website/content/`](https://github.com/rnd195/marp-community-themes/tree/live/website/content) directory and the CSS file will be in the [`themes/`](https://github.com/rnd195/marp-community-themes/tree/live/themes) directory. 
-
-Updates to your screenshots, Markdown files, or the CSS file should be preferably done through pull requests.
-
-By submitting the theme, you acknowledge that you are the author of the submitted files. It is also important to adequately indicate the usage and the source of any third-party resources (e.g., code, pictures, and so on). Please, use an [MIT License](https://opensource.org/licenses/MIT) or a [GPL-Compatible license](https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses) for your themes and link to the license in the front-matter of your theme's Markdown file.
+Work in progress.
 
 
 
