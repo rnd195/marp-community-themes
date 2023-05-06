@@ -1,3 +1,10 @@
 {
   "cleanUrls": true
+  "redirects": [
+	{
+		"source": "/(.*)",
+		"destination": "https://rnd195.github.io/marp-community-themes/$1",
+		"statusCode": 301
+	}
+]
 }
