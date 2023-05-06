@@ -2,4 +2,4 @@
 title: Page Not Found
 ---
 
-We're sorry, the page you're looking for can't be found. Please, click [here](./) to return to our homepage.
+We're sorry, the page you're looking for can't be found. Please, click [here](https://rnd195.github.io/marp-community-themes/) to return to our homepage.

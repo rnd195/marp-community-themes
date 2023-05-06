@@ -26,7 +26,6 @@ website:
         href: https://github.com/rnd195/marp-community-themes
         target: "_blank"
   site-url: "https://rnd195.github.io/marp-community-themes/"
-  site-path: "/"
 format:
   html:
     theme: yeti
