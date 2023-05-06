@@ -4,3 +4,5 @@ website/.Rproj.user/
 post.md
 website/.quarto/
 website/_todo.md
+.quarto/
+.Rhistory
