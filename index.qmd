@@ -1,5 +1,5 @@
 ---
-subtitle: "Themes for the markdown presentation ecosystem Marp maintained by the community."
+subtitle: "Themes for the Markdown presentation ecosystem Marp maintained by the community."
 listing:
   contents: theme
   sort: "title"
