@@ -4,7 +4,9 @@
     "items": [
       "/theme/beam.html",
       "/theme/border.html",
-      "/theme/gradient.html"
+      "/theme/gaia.html",
+      "/theme/gradient.html",
+      "/theme/uncover.html"
     ]
   }
 ]

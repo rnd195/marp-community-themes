@@ -2,18 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/index.html</loc>
-    <lastmod>2023-05-07T18:24:47.876Z</lastmod>
+    <lastmod>2023-05-12T15:14:24.638Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/installation.html</loc>
+    <lastmod>2023-05-12T15:10:29.186Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/beam.html</loc>
-    <lastmod>2023-05-07T18:24:42.892Z</lastmod>
+    <lastmod>2023-05-12T15:15:10.849Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/border.html</loc>
-    <lastmod>2023-05-07T18:24:43.775Z</lastmod>
+    <lastmod>2023-05-12T15:09:47.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/theme/gaia.html</loc>
+    <lastmod>2023-05-12T15:14:27.031Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/gradient.html</loc>
-    <lastmod>2023-05-07T18:24:44.817Z</lastmod>
+    <lastmod>2023-05-12T15:09:49.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/theme/uncover.html</loc>
+    <lastmod>2023-05-12T15:14:44.816Z</lastmod>
   </url>
 </urlset>

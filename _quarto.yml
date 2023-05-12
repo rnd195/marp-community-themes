@@ -17,8 +17,7 @@ website:
   navbar:
     right:
       - text: "Installation"
-        href: https://github.com/rnd195/marp-community-themes#installation--usage
-        target: "_blank"
+        href: installation.qmd
       - text: "Marp"
         href: http://marp.app/
         target: "_blank"
