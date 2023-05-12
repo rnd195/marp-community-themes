@@ -4,7 +4,7 @@ This is a community-maintained theme gallery for [Marp](https://marp.app/). For 
 
 The website is built using [Quarto](https://quarto.org/) and it is inspired by the Typora [theme gallery](https://theme.typora.io/).
 
-Feel free to provide any suggestions in the issues tab.
+Feel free to provide any suggestions in the issues tab. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.
 
 # Installation / Usage
 
