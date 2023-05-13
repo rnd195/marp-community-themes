@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: border
+theme: graph_paper
 size: 4:3
 header: This is a header
 footer: This is a footer
@@ -12,11 +12,11 @@ title: Testing MD file
 
 Author's name
 University of XYZ
-2022-06-19
+2023-05-13
 
 ---
 
-# Text
+# The `graph_paper` theme
 
 **Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit. Nunc eu ante ~~sit amet~~ erat suscipit <mark>consectetur</mark>. Praesent efficitur <u>sollicitudin</u> nisi.
 
