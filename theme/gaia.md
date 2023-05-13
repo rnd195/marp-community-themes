@@ -8,7 +8,7 @@ about:
   template: solana
   links:
     - icon: github
-      text: "Yuki Hattori"
+      text: "yhatt"
       href: https://github.com/yhatt
       target: "_blank"
     - icon: globe

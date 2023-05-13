@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Search for <code>markdown.marp.themes</code></li>
 <li>Add a URL or a local path to the <code>.css</code> file
 <ul>
-<li>URL example: <code>https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/theme_name.css</code></li>
+<li>URL example: <code>https://raw.githubusercontent.com/rnd195/marp-community-themes</code> <code>/live/themes/theme_name.css</code></li>
 <li>Local path example: <code>./assets/theme_name.css</code> (theme needs to be somewhere in the project’s directory)</li>
 </ul></li>
 <li>Enable the theme in the front-matter of the Markdown document</li>
@@ -140,9 +140,10 @@ theme: theme_name
 <li>Put the <code>.css</code> theme file in the directory of your Markdown document</li>
 <li>Use the <code>--theme</code> parameter during the export and specify the path to the <code>.css</code> file
 <ul>
-<li>e.g.: <code>marp --theme ./assets/theme_name.css document.md -o document.pdf</code></li>
+<li>e.g.:</li>
 </ul></li>
 </ol>
+<pre><code>marp --theme ./assets/theme_name.css document.md -o document.pdf</code></pre>
 
 
 </section>

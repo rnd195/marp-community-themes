@@ -8,7 +8,7 @@ about:
   template: solana
   links:
     - icon: github
-      text: "Martin Řanda"
+      text: "rnd195"
       href: https://github.com/rnd195/
       target: "_blank"
     - icon: globe

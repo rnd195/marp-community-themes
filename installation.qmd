@@ -10,7 +10,8 @@ After clicking the "Download CSS" button on any theme's page, your browser likel
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for `markdown.marp.themes`
 3. Add a URL or a local path to the `.css` file
-   - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/theme_name.css`
+   - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes`
+   `/live/themes/theme_name.css`
    - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
 4. Enable the theme in the front-matter of the Markdown document
@@ -26,4 +27,8 @@ theme: theme_name
 
 1. Put the `.css` theme file in the directory of your Markdown document
 2. Use the `--theme` parameter during the export and specify the path to the `.css` file
-   - e.g.: `marp --theme ./assets/theme_name.css document.md -o document.pdf`
+   - e.g.: 
+   
+```
+marp --theme ./assets/theme_name.css document.md -o document.pdf
+```
