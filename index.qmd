@@ -12,5 +12,5 @@ listing:
   image-height: 12em
 page-layout: full
 title-block-banner: true
-aliases: ["theme/", "gradient/", "border/"]
+aliases: ["theme/"]
 ---
