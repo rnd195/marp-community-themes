@@ -4,10 +4,8 @@
     "items": [
       "/theme/beam.html",
       "/theme/border.html",
-      "/theme/gaia.html",
       "/theme/gradient.html",
-      "/theme/graph_paper.html",
-      "/theme/uncover.html"
+      "/theme/graph_paper.html"
     ]
   }
 ]

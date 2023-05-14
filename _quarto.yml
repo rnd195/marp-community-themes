@@ -16,6 +16,8 @@ website:
   search: false
   navbar:
     right:
+      - text: "About"
+        href: about.qmd
       - text: "Installation"
         href: installation.qmd
       - text: "Marp"

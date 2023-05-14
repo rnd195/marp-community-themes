@@ -1,0 +1,15 @@
+---
+title: "About"
+title-block-banner: true
+---
+
+This is a community-maintained theme gallery for the Markdown presentation ecosystem [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
+
+The website is built using [Quarto](https://quarto.org/) and it is inspired by the Typora [theme gallery](https://theme.typora.io/).
+
+Feel free to provide any suggestions in the [issues tab](https://github.com/rnd195/marp-community-themes/issues) on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.
+
+The theme gallery is currently being developed by [rnd195](https://github.com/rnd195/). The goals in the very near future (June/July 2023) are:
+
+- Contact authors of existing themes to ask them about having their projects featured
+- Create a template for submissions

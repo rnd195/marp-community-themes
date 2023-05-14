@@ -4,7 +4,14 @@
     "href": "index.html",
     "title": "Marp Community Themes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGaia\n\n\n\nyhatt\n\n\nJun 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncover\n\n\n\nyhatt\n\n\nJun 7, 2018\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. For more information about how to create themes for Marp, see the official documentation.\nThe website is built using Quarto and it is inspired by the Typora theme gallery.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195. The goals in the very near future (June/July 2023) are:\n\nContact authors of existing themes to ask them about having their projects featured\nCreate a template for submissions"
   },
   {
     "objectID": "installation.html",
@@ -28,27 +35,6 @@
     "text": "This theme is based on the default Marp theme but has some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used. For more changes, see the screenshots below.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
-    "objectID": "theme/gaia.html",
-    "href": "theme/gaia.html",
-    "title": "Gaia",
-    "section": "",
-    "text": "Gaia is a built-in theme in Marp featuring a minimalistic color palette of cornsilk (light yellow) and deep space sparkle (greenish grey)."
-  },
-  {
-    "objectID": "theme/gaia.html#class-invert",
-    "href": "theme/gaia.html#class-invert",
-    "title": "Gaia",
-    "section": "class: invert",
-    "text": "class: invert"
-  },
-  {
-    "objectID": "theme/gaia.html#class-default",
-    "href": "theme/gaia.html#class-default",
-    "title": "Gaia",
-    "section": "class: default",
-    "text": "class: default"
-  },
-  {
     "objectID": "theme/gradient.html",
     "href": "theme/gradient.html",
     "title": "Gradient",
@@ -66,27 +52,6 @@
     "objectID": "theme/gradient.html#class-default",
     "href": "theme/gradient.html#class-default",
     "title": "Gradient",
-    "section": "class: default",
-    "text": "class: default"
-  },
-  {
-    "objectID": "theme/uncover.html",
-    "href": "theme/uncover.html",
-    "title": "Uncover",
-    "section": "",
-    "text": "Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements."
-  },
-  {
-    "objectID": "theme/uncover.html#class-invert",
-    "href": "theme/uncover.html#class-invert",
-    "title": "Uncover",
-    "section": "class: invert",
-    "text": "class: invert"
-  },
-  {
-    "objectID": "theme/uncover.html#class-default",
-    "href": "theme/uncover.html#class-default",
-    "title": "Uncover",
     "section": "class: default",
     "text": "class: default"
   },
