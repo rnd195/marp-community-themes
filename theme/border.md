@@ -22,7 +22,7 @@ about:
 aliases: ["/border"]
 ---
 
-This theme is based on the `default` Marp theme but has some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more changes, see the screenshots below.
+This theme is based on the `default` Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used.
 
 # Screenshots
 

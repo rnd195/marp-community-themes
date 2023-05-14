@@ -3,7 +3,7 @@ title: "About"
 title-block-banner: true
 ---
 
-This is a community-maintained theme gallery for the Markdown presentation ecosystem [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
+This is a community-maintained theme gallery for the Markdown presentation ecosystem [Marp](https://marp.app/). The goal of this project is to give users an easily accessible way to style their presentations. For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
 
 The website is built using [Quarto](https://quarto.org/) and it is inspired by the Typora [theme gallery](https://theme.typora.io/).
 

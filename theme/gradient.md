@@ -22,7 +22,7 @@ about:
 aliases: ["/gradient"]
 ---
 
-This theme is based on the `default` Marp theme. The background on each slide is a colorful gradient. As the main font, the [Inter](https://github.com/rsms/inter) font family is used. For more, see the screenshots below.
+This theme is based on the `default` Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the [Inter](https://github.com/rsms/inter) font family is used.
 
 # Screenshots
 

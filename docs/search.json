@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. For more information about how to create themes for Marp, see the official documentation.\nThe website is built using Quarto and it is inspired by the Typora theme gallery.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195. The goals in the very near future (June/July 2023) are:\n\nContact authors of existing themes to ask them about having their projects featured\nCreate a template for submissions"
+    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. The goal of this project is to give users an easily accessible way to style their presentations. For more information about how to create themes for Marp, see the official documentation.\nThe website is built using Quarto and it is inspired by the Typora theme gallery.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195. The goals in the very near future (June/July 2023) are:\n\nContact authors of existing themes to ask them about having their projects featured\nCreate a template for submissions"
   },
   {
     "objectID": "installation.html",
@@ -32,14 +32,14 @@
     "href": "theme/border.html",
     "title": "Border",
     "section": "",
-    "text": "This theme is based on the default Marp theme but has some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used. For more changes, see the screenshots below.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/gradient.html",
     "href": "theme/gradient.html",
     "title": "Gradient",
     "section": "",
-    "text": "This theme is based on the default Marp theme. The background on each slide is a colorful gradient. As the main font, the Inter font family is used. For more, see the screenshots below."
+    "text": "This theme is based on the default Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the Inter font family is used."
   },
   {
     "objectID": "theme/gradient.html#class-blue",
