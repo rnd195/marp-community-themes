@@ -3,7 +3,7 @@ title: "Graph Paper"
 author: "rnd195"
 categories: [Light]
 image: "graph_paper.assets/graph_paper.png"
-date: "2022-03-26"
+date: "2023-05-13"
 about:
   template: solana
   links:
