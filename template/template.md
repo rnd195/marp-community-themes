@@ -16,7 +16,7 @@ University of XYZ
 
 ---
 
-# The `graph_paper` theme
+# Text
 
 **Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit. Nunc eu ante ~~sit amet~~ erat suscipit <mark>consectetur</mark>. Praesent efficitur <u>sollicitudin</u> nisi.
 
