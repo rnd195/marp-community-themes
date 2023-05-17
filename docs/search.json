@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Marp Community Themes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -25,7 +25,7 @@
     "href": "theme/beam.html",
     "title": "Beam",
     "section": "",
-    "text": "The beam theme tries to mimic the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the Github repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
+    "text": "The beam theme tries to mimic the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
   },
   {
     "objectID": "theme/border.html",
@@ -61,5 +61,12 @@
     "title": "Graph Paper",
     "section": "",
     "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/academic.html",
+    "href": "theme/academic.html",
+    "title": "Academic",
+    "section": "",
+    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
   }
 ]
