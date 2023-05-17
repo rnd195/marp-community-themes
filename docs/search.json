@@ -67,6 +67,6 @@
     "href": "theme/academic.html",
     "title": "Academic",
     "section": "",
-    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author, please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\n\nIf you like the academic theme and wish to show support to the author, please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
   }
 ]
