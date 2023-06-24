@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Marp Community Themes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDracula\n\n\n\ndgisolfi\n\n\nAug 11, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGaia\n\n\n\nyhatt\n\n\nJun 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncover\n\n\n\nyhatt\n\n\nJun 7, 2018\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -68,5 +68,54 @@
     "title": "Academic",
     "section": "",
     "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\n\nIf you like the academic theme and wish to show support to the author, please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/dracula.html",
+    "href": "theme/dracula.html",
+    "title": "Dracula",
+    "section": "",
+    "text": "Dracula is a popular dark mode color palette for a wide range of programs. It features deep shades of purple, pink, blue, green, and black to create a visually pleasant and high-contrast aesthetic.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/gaia.html",
+    "href": "theme/gaia.html",
+    "title": "Gaia",
+    "section": "",
+    "text": "Gaia is a built-in theme in Marp featuring a minimalistic color palette of cornsilk (light yellow) and deep space sparkle (greenish grey)."
+  },
+  {
+    "objectID": "theme/gaia.html#class-invert",
+    "href": "theme/gaia.html#class-invert",
+    "title": "Gaia",
+    "section": "class: invert",
+    "text": "class: invert"
+  },
+  {
+    "objectID": "theme/gaia.html#class-default",
+    "href": "theme/gaia.html#class-default",
+    "title": "Gaia",
+    "section": "class: default",
+    "text": "class: default"
+  },
+  {
+    "objectID": "theme/uncover.html",
+    "href": "theme/uncover.html",
+    "title": "Uncover",
+    "section": "",
+    "text": "Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements."
+  },
+  {
+    "objectID": "theme/uncover.html#class-invert",
+    "href": "theme/uncover.html#class-invert",
+    "title": "Uncover",
+    "section": "class: invert",
+    "text": "class: invert"
+  },
+  {
+    "objectID": "theme/uncover.html#class-default",
+    "href": "theme/uncover.html#class-default",
+    "title": "Uncover",
+    "section": "class: default",
+    "text": "class: default"
   }
 ]

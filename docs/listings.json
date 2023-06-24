@@ -5,8 +5,11 @@
       "/theme/academic.html",
       "/theme/beam.html",
       "/theme/border.html",
+      "/theme/dracula.html",
+      "/theme/gaia.html",
       "/theme/gradient.html",
-      "/theme/graph_paper.html"
+      "/theme/graph_paper.html",
+      "/theme/uncover.html"
     ]
   }
 ]
