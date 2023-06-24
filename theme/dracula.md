@@ -24,6 +24,8 @@ aliases: ["/dracula"]
 
 Dracula is a popular dark mode color palette for a [wide range of programs](https://draculatheme.com/). It features deep shades of purple, pink, blue, green, and black to create a visually pleasant and high-contrast aesthetic.
 
+If you like the `dracula` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/dracula/marp)!
+
 # Screenshots
 
 ![](dracula.assets/dracula1.jpg)

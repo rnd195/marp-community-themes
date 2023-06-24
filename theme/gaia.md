@@ -22,6 +22,8 @@ aliases: ["/gaia"]
 
 Gaia is a built-in theme in Marp featuring a minimalistic color palette of [*cornsilk*](https://www.color-name.com/hex/fff8e1) (light yellow) and [*deep space sparkle*](https://www.color-name.com/hex/455a64) (greenish grey).
 
+If you like the `gaia` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/marp-team/marp)!
+
 # Screenshots
 
 ## `class: invert`

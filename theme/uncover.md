@@ -22,6 +22,8 @@ aliases: ["/uncover"]
 
 Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements.
 
+If you like the `uncover` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/marp-team/marp)!
+
 # Screenshots
 
 ## `class: invert`

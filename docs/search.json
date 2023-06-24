@@ -67,21 +67,21 @@
     "href": "theme/academic.html",
     "title": "Academic",
     "section": "",
-    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\n\nIf you like the academic theme and wish to show support to the author, please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/dracula.html",
     "href": "theme/dracula.html",
     "title": "Dracula",
     "section": "",
-    "text": "Dracula is a popular dark mode color palette for a wide range of programs. It features deep shades of purple, pink, blue, green, and black to create a visually pleasant and high-contrast aesthetic.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "Dracula is a popular dark mode color palette for a wide range of programs. It features deep shades of purple, pink, blue, green, and black to create a visually pleasant and high-contrast aesthetic.\nIf you like the dracula theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/gaia.html",
     "href": "theme/gaia.html",
     "title": "Gaia",
     "section": "",
-    "text": "Gaia is a built-in theme in Marp featuring a minimalistic color palette of cornsilk (light yellow) and deep space sparkle (greenish grey)."
+    "text": "Gaia is a built-in theme in Marp featuring a minimalistic color palette of cornsilk (light yellow) and deep space sparkle (greenish grey).\nIf you like the gaia theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
   },
   {
     "objectID": "theme/gaia.html#class-invert",
@@ -102,7 +102,7 @@
     "href": "theme/uncover.html",
     "title": "Uncover",
     "section": "",
-    "text": "Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements."
+    "text": "Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements.\nIf you like the uncover theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
   },
   {
     "objectID": "theme/uncover.html#class-invert",
