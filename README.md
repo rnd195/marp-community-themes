@@ -43,4 +43,5 @@ Work in progress.
 
 # License
 
-This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/live/LICENSE).
+This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/live/LICENSE). License files of the featured themes can be found in the `themes/licenses/` directory.
+
