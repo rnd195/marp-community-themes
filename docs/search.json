@@ -18,7 +18,7 @@
     "href": "installation.html",
     "title": "Installation / Usage",
     "section": "",
-    "text": "After clicking the “Download CSS” button on any theme’s page, your browser likely loads the .css file instead of downloading it. You can either locally save the .css file using Ctrl + S or you may copy the URL for further use (see below)."
+    "text": "After clicking the “Download CSS” button on any theme’s page, your browser likely loads the .css file instead of downloading it. You can either locally save the .css file using Ctrl + S or you may copy the URL for further use (see below).\n\nMarp for VS Code Extension\n\nOpen Settings in VSCode (Ctrl + ,)\nSearch for markdown.marp.themes\nAdd a URL or a local path to the .css file\n\nURL example: https://raw.githubusercontent.com/rnd195/marp-community-themes /live/themes/theme_name.css\nLocal path example: ./assets/theme_name.css (theme needs to be somewhere in the project’s directory)\n\nEnable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:\n\n---\nmarp: true\ntheme: theme_name\n---\nFor additional settings (such as size or paginate), follow the official documentation.\n\n\nMarp CLI\n\nPut the .css theme file in the directory of your Markdown document\nUse the --theme parameter during the export and specify the path to the .css file\n\ne.g.:\n\n\nmarp --theme ./assets/theme_name.css document.md -o document.pdf"
   },
   {
     "objectID": "theme/beam.html",
