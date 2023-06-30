@@ -122,8 +122,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>After clicking the “Download CSS” button on any theme’s page, your browser likely loads the <code>.css</code> file instead of downloading it. You can either locally save the <code>.css</code> file using <code>Ctrl + S</code> or you may copy the URL for further use (see below).</p>
-<section id="marp-for-vs-code-extension" class="level3">
-<h3 class="anchored" data-anchor-id="marp-for-vs-code-extension">Marp for VS Code Extension</h3>
+<section id="marp-for-vs-code-extension" class="level2">
+<h2 class="anchored" data-anchor-id="marp-for-vs-code-extension">Marp for VS Code Extension</h2>
 <ol type="1">
 <li>Open Settings in VSCode (<code>Ctrl + ,</code>)</li>
 <li>Search for <code>markdown.marp.themes</code></li>
@@ -132,15 +132,16 @@ ul.task-list li input[type="checkbox"] {
 <li>URL example: <code>https://raw.githubusercontent.com/rnd195/marp-community-themes</code> <code>/live/themes/theme_name.css</code></li>
 <li>Local path example: <code>./assets/theme_name.css</code> (theme needs to be somewhere in the project’s directory)</li>
 </ul></li>
-<li>Enable the theme in the front-matter of the Markdown document</li>
+<li>Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:</li>
 </ol>
 <pre><code>---
 marp: true
 theme: theme_name
 ---</code></pre>
+<p>For additional settings (such as <code>size</code> or <code>paginate</code>), follow the <a href="https://marpit.marp.app/directives">official documentation</a>.</p>
 </section>
-<section id="marp-cli" class="level3">
-<h3 class="anchored" data-anchor-id="marp-cli">Marp CLI</h3>
+<section id="marp-cli" class="level2">
+<h2 class="anchored" data-anchor-id="marp-cli">Marp CLI</h2>
 <ol type="1">
 <li>Put the <code>.css</code> theme file in the directory of your Markdown document</li>
 <li>Use the <code>--theme</code> parameter during the export and specify the path to the <code>.css</code> file

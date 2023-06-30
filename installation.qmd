@@ -14,7 +14,7 @@ After clicking the "Download CSS" button on any theme's page, your browser likel
    `/live/themes/theme_name.css`
    - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
-4. Enable the theme in the front-matter of the Markdown document
+4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
 ---
@@ -22,6 +22,8 @@ marp: true
 theme: theme_name
 ---
 ```
+
+For additional settings (such as `size` or `paginate`), follow the [official documentation](https://marpit.marp.app/directives).
 
 ### Marp CLI
 
