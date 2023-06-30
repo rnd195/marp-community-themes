@@ -18,7 +18,7 @@ After clicking the "Download CSS" button on any theme's page, your browser likel
    - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/theme_name.css`
    - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
-4. Enable the theme in the front-matter of the Markdown document
+4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
 ---
@@ -27,11 +27,17 @@ theme: theme_name
 ---
 ```
 
+For additional settings (such as `size` or `paginate`), follow the [official documentation](https://github.com/marp-team/marp/blob/main/website/docs/guide/directives.md).
+
 ### Marp CLI
 
 1. Put the `.css` theme file in the directory of your Markdown document
 2. Use the `--theme` parameter during the export and specify the path to the `.css` file
-   - e.g.: `marp --theme ./assets/theme_name.css document.md -o document.pdf`
+   - e.g.: 
+   
+```
+marp --theme ./assets/theme_name.css document.md -o document.pdf
+```
 
 
 
