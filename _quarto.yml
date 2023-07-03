@@ -29,7 +29,8 @@ website:
   site-url: "https://rnd195.github.io/marp-community-themes/"
 format:
   html:
-    theme: yeti
+    theme: 
+        - custom.scss
     css: styles.css
 
 

@@ -21,6 +21,13 @@
     "text": "After clicking the “Download CSS” button on any theme’s page, your browser likely loads the .css file instead of downloading it. You can either locally save the .css file using Ctrl + S or you may copy the URL for further use (see below).\n\nMarp for VS Code Extension\n\nOpen Settings in VSCode (Ctrl + ,)\nSearch for markdown.marp.themes\nAdd a URL or a local path to the .css file\n\nURL example: https://raw.githubusercontent.com/rnd195/marp-community-themes /live/themes/theme_name.css\nLocal path example: ./assets/theme_name.css (theme needs to be somewhere in the project’s directory)\n\nEnable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:\n\n---\nmarp: true\ntheme: theme_name\n---\nFor additional settings (such as size or paginate), follow the official documentation.\n\n\nMarp CLI\n\nPut the .css theme file in the directory of your Markdown document\nUse the --theme parameter during the export and specify the path to the .css file\n\ne.g.:\n\n\nmarp --theme ./assets/theme_name.css document.md -o document.pdf"
   },
   {
+    "objectID": "theme/academic.html",
+    "href": "theme/academic.html",
+    "title": "Academic",
+    "section": "",
+    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
     "objectID": "theme/beam.html",
     "href": "theme/beam.html",
     "title": "Beam",
@@ -33,41 +40,6 @@
     "title": "Border",
     "section": "",
     "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/gradient.html",
-    "href": "theme/gradient.html",
-    "title": "Gradient",
-    "section": "",
-    "text": "This theme is based on the default Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the Inter font family is used."
-  },
-  {
-    "objectID": "theme/gradient.html#class-blue",
-    "href": "theme/gradient.html#class-blue",
-    "title": "Gradient",
-    "section": "class: blue",
-    "text": "class: blue"
-  },
-  {
-    "objectID": "theme/gradient.html#class-default",
-    "href": "theme/gradient.html#class-default",
-    "title": "Gradient",
-    "section": "class: default",
-    "text": "class: default"
-  },
-  {
-    "objectID": "theme/graph_paper.html",
-    "href": "theme/graph_paper.html",
-    "title": "Graph Paper",
-    "section": "",
-    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/academic.html",
-    "href": "theme/academic.html",
-    "title": "Academic",
-    "section": "",
-    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/dracula.html",
@@ -98,6 +70,34 @@
     "text": "class: default"
   },
   {
+    "objectID": "theme/gradient.html",
+    "href": "theme/gradient.html",
+    "title": "Gradient",
+    "section": "",
+    "text": "This theme is based on the default Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the Inter font family is used."
+  },
+  {
+    "objectID": "theme/gradient.html#class-blue",
+    "href": "theme/gradient.html#class-blue",
+    "title": "Gradient",
+    "section": "class: blue",
+    "text": "class: blue"
+  },
+  {
+    "objectID": "theme/gradient.html#class-default",
+    "href": "theme/gradient.html#class-default",
+    "title": "Gradient",
+    "section": "class: default",
+    "text": "class: default"
+  },
+  {
+    "objectID": "theme/graph_paper.html",
+    "href": "theme/graph_paper.html",
+    "title": "Graph Paper",
+    "section": "",
+    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
     "objectID": "theme/uncover.html",
     "href": "theme/uncover.html",
     "title": "Uncover",
@@ -117,19 +117,5 @@
     "title": "Uncover",
     "section": "class: default",
     "text": "class: default"
-  },
-  {
-    "objectID": "installation.html#marp-for-vs-code-extension",
-    "href": "installation.html#marp-for-vs-code-extension",
-    "title": "Installation / Usage",
-    "section": "Marp for VS Code Extension",
-    "text": "Marp for VS Code Extension\n\nOpen Settings in VSCode (Ctrl + ,)\nSearch for markdown.marp.themes\nAdd a URL or a local path to the .css file\n\nURL example: https://raw.githubusercontent.com/rnd195/marp-community-themes /live/themes/theme_name.css\nLocal path example: ./assets/theme_name.css (theme needs to be somewhere in the project’s directory)\n\nEnable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:\n\n---\nmarp: true\ntheme: theme_name\n---\nFor additional settings (such as size or paginate), follow the official documentation."
-  },
-  {
-    "objectID": "installation.html#marp-cli",
-    "href": "installation.html#marp-cli",
-    "title": "Installation / Usage",
-    "section": "Marp CLI",
-    "text": "Marp CLI\n\nPut the .css theme file in the directory of your Markdown document\nUse the --theme parameter during the export and specify the path to the .css file\n\ne.g.:\n\n\nmarp --theme ./assets/theme_name.css document.md -o document.pdf"
   }
 ]
