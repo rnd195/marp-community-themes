@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-We (maintainers of the Marp Community Themes project) **do not** collect any of your personal data. This site contains links to third-party websites---we are not responsible for the privacy practices or content of these websites.
+We (maintainers of the Marp Community Themes project) **do not** collect any of your personal data. This website contains links to third-party websites---we are not responsible for the privacy practices or content of these websites.
 
 This website is hosted using GitHub Pages. The host may collect personal data as described in the [documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) for GitHub Pages:
 

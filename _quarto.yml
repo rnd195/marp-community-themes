@@ -12,6 +12,8 @@ website:
         target: "_blank"
       - text: "Privacy Policy."
         href: privacy-policy.qmd
+      - text: "License."
+        href: https://github.com/rnd195/marp-community-themes/blob/live/LICENSE
       - text: "Made with Quarto."
         href: https://quarto.org/
         target: "_blank"
