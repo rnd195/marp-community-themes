@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/index.html</loc>
-    <lastmod>2023-07-03T20:20:24.661Z</lastmod>
+    <lastmod>2023-07-03T21:11:30.534Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/about.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/academic.html</loc>
-    <lastmod>2023-07-03T20:20:55.214Z</lastmod>
+    <lastmod>2023-07-03T20:40:27.493Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/beam.html</loc>
@@ -38,10 +38,14 @@
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/graph_paper.html</loc>
-    <lastmod>2023-07-03T20:20:22.079Z</lastmod>
+    <lastmod>2023-07-03T20:34:35.373Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/uncover.html</loc>
     <lastmod>2023-07-03T20:20:22.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/privacy-policy.html</loc>
+    <lastmod>2023-07-03T21:11:42.819Z</lastmod>
   </url>
 </urlset>

@@ -10,6 +10,8 @@ website:
       - text: "2023 rnd195."
         href: https://github.com/rnd195/
         target: "_blank"
+      - text: "Privacy Policy."
+        href: privacy-policy.qmd
       - text: "Made with Quarto."
         href: https://quarto.org/
         target: "_blank"
