@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/index.html</loc>
-    <lastmod>2023-07-04T22:09:25.544Z</lastmod>
+    <lastmod>2023-07-19T14:58:41.060Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/about.html</loc>
@@ -10,42 +10,54 @@
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/installation.html</loc>
-    <lastmod>2023-07-04T10:47:11.245Z</lastmod>
+    <lastmod>2023-07-19T14:58:32.165Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/academic.html</loc>
-    <lastmod>2023-07-04T10:48:53.407Z</lastmod>
+    <lastmod>2023-07-19T14:58:32.821Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/beam.html</loc>
-    <lastmod>2023-07-04T10:46:56.798Z</lastmod>
+    <lastmod>2023-07-19T14:58:33.155Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/border.html</loc>
-    <lastmod>2023-07-04T10:48:25.511Z</lastmod>
+    <lastmod>2023-07-19T14:58:33.460Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/dracula.html</loc>
-    <lastmod>2023-07-04T10:46:59.428Z</lastmod>
+    <lastmod>2023-07-19T14:58:33.783Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/gaia.html</loc>
-    <lastmod>2023-07-04T10:47:00.864Z</lastmod>
+    <lastmod>2023-07-19T14:58:34.095Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/gradient.html</loc>
-    <lastmod>2023-07-04T10:47:02.197Z</lastmod>
+    <lastmod>2023-07-19T14:58:34.487Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/graph_paper.html</loc>
-    <lastmod>2023-07-04T10:47:04.019Z</lastmod>
+    <lastmod>2023-07-19T14:58:34.813Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/theme/uncover.html</loc>
-    <lastmod>2023-07-04T10:47:05.909Z</lastmod>
+    <lastmod>2023-07-19T14:58:36.082Z</lastmod>
   </url>
   <url>
     <loc>https://rnd195.github.io/marp-community-themes/privacy-policy.html</loc>
-    <lastmod>2023-07-04T22:09:24.503Z</lastmod>
+    <lastmod>2023-07-19T14:58:32.457Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/theme/rose-pine.html</loc>
+    <lastmod>2023-07-19T15:02:21.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/theme/rose-pine-dawn.html</loc>
+    <lastmod>2023-07-19T15:05:03.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnd195.github.io/marp-community-themes/theme/rose-pine-moon.html</loc>
+    <lastmod>2023-07-19T15:07:29.925Z</lastmod>
   </url>
 </urlset>

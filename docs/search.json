@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Marp Community Themes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDracula\n\n\n\ndgisolfi\n\n\nAug 11, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGaia\n\n\n\nyhatt\n\n\nJun 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncover\n\n\n\nyhatt\n\n\nJun 7, 2018\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDracula\n\n\n\ndgisolfi\n\n\nAug 11, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGaia\n\n\n\nyhatt\n\n\nJun 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine Dawn\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine Moon\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncover\n\n\n\nyhatt\n\n\nJun 7, 2018\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -124,5 +124,26 @@
     "title": "Privacy Policy",
     "section": "",
     "text": "We (maintainers of the Marp Community Themes project) do not collect any of your personal data.\nThis website is hosted using GitHub Pages. The host may collect personal data as described in the documentation for GitHub Pages:\n\nWhen a GitHub Pages site is visited, the visitor’s IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub’s security practices, see GitHub Privacy Statement.\n\nThis website may contain links to third-party websites. Please note that once you leave this site and access these external websites, this privacy policy no longer applies.\nWe may update this privacy policy from time to time. Any changes will be posted on this page with a revised effective date. If you have any questions or concerns regarding this privacy policy, please contact us at contact@rnd195.anonaddy.com.\nLast updated: 2023-07-05"
+  },
+  {
+    "objectID": "theme/rose-pine.html",
+    "href": "theme/rose-pine.html",
+    "title": "Rosé Pine",
+    "section": "",
+    "text": "This theme implements the Rosé Pine color palette for Marp. It features soft natural colors with a dark background and offers a soothing aesthetic.\nIf you like the rose-pine theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/rose-pine-dawn.html",
+    "href": "theme/rose-pine-dawn.html",
+    "title": "Rosé Pine Dawn",
+    "section": "",
+    "text": "This theme implements the Dawn variant of the Rosé Pine color palette for Marp. It features soft natural colors with a light background and provides that familiar feeling of a waking up early on a sunny day.\nIf you like the rose-pine-dawn theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/rose-pine-moon.html",
+    "href": "theme/rose-pine-moon.html",
+    "title": "Rosé Pine Moon",
+    "section": "",
+    "text": "This theme implements the Moon variant of the Rosé Pine color palette for Marp. It features a dark background with soft natural colors illuminating the slide much like a tapestry of neon hues on an empty city street.\nIf you like the rose-pine-moon theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   }
 ]
