@@ -22,7 +22,7 @@ about:
 aliases: ["/rose-pine-dawn"]
 ---
 
-This theme implements the Dawn variant of the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features soft natural colors with a light background and provides that familiar feeling of a waking up early on a sunny day.
+This theme implements the Dawn variant of the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features soft natural colors with a light background and illustrates that familiar feeling of a waking up early on a sunny day.
 
 If you like the `rose-pine-dawn` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/rainbowflesh/Rose-Pine-For-Marp)!
 
