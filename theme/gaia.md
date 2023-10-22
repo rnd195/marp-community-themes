@@ -1,6 +1,6 @@
 ---
 title: "Gaia"
-author: "yhatt"
+author: "marp-team"
 categories: [Light, Dark]
 image: "gaia.assets/gaia.png"
 date: "2018-06-10"
@@ -8,8 +8,8 @@ about:
   template: solana
   links:
     - icon: github
-      text: "yhatt"
-      href: https://github.com/yhatt
+      text: "marp-team"
+      href: https://github.com/marp-team/
       target: "_blank"
     - icon: globe
       text: Project homepage

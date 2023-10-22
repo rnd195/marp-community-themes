@@ -1,6 +1,6 @@
 ---
 title: "Uncover"
-author: "yhatt"
+author: "marp-team"
 categories: [Light, Dark]
 image: "uncover.assets/uncover.png"
 date: "2018-06-07"
@@ -8,8 +8,8 @@ about:
   template: solana
   links:
     - icon: github
-      text: "yhatt"
-      href: https://github.com/yhatt
+      text: "marp-team"
+      href: https://github.com/marp-team
       target: "_blank"
     - icon: globe
       text: Project homepage
