@@ -10,6 +10,8 @@ This website is hosted using GitHub Pages. The host may collect personal data as
 
 This website may contain links to third-party websites. Please note that once you leave this site and access these external websites, this privacy policy no longer applies.
 
+Please, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information.
+
 We may update this privacy policy from time to time. Any changes will be posted on this page with a revised effective date. If you have any questions or concerns regarding this privacy policy, please contact us at *contact`@`rnd195.anonaddy.com*. If you are one of the authors whose project is listed on this website, and you wish make any changes to your project's feature, contact us at the aforementioned address.
 
-Last updated: 2023-10-22
+Last updated: 2024-02-03
