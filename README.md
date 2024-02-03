@@ -8,14 +8,14 @@ Feel free to provide any suggestions in the issues tab. Please note that this th
 
 # Installation / Usage
 
-After clicking the "Download CSS" button on any theme's page, your browser likely loads the `.css` file instead of downloading it. You can either locally save the `.css` file using `Ctrl + S` or you may copy the URL for further use (see below).
+After clicking the "Download CSS" button on any theme's page, your browser likely loads the `.css` file instead of downloading it. You can save the `.css` file locally using `Ctrl + S`. 
 
 ### Marp for VS Code Extension
 
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for `markdown.marp.themes`
 3. Add a URL or a local path to the `.css` file
-   - URL example: `https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/theme_name.css`
+   - URL: refer to [this discussion](https://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github/) about linking to files on GitHub
    - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
 4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
@@ -43,7 +43,7 @@ marp --theme ./assets/theme_name.css document.md -o document.pdf
 
 # Submitting themes
 
-Work in progress.
+Work in progress. Not accepting submissions at the moment, sorry.
 
 
 
@@ -51,3 +51,8 @@ Work in progress.
 
 This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/live/LICENSE). License files of the featured themes can be found in the `themes/licenses/` directory.
 
+
+
+# Privacy notice
+
+Please, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information.
