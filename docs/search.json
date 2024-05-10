@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "theme/uncover.html",
+    "href": "theme/uncover.html",
+    "title": "Uncover",
+    "section": "",
+    "text": "Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements.\nIf you like the uncover theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
+  },
+  {
+    "objectID": "theme/uncover.html#class-invert",
+    "href": "theme/uncover.html#class-invert",
+    "title": "Uncover",
+    "section": "class: invert",
+    "text": "class: invert"
+  },
+  {
+    "objectID": "theme/uncover.html#class-default",
+    "href": "theme/uncover.html#class-default",
+    "title": "Uncover",
+    "section": "class: default",
+    "text": "class: default"
+  },
+  {
+    "objectID": "theme/rose-pine-moon.html",
+    "href": "theme/rose-pine-moon.html",
+    "title": "Rosé Pine Moon",
+    "section": "",
+    "text": "This theme implements the Moon variant of the Rosé Pine color palette for Marp. It features a dark background with soft natural colors illuminating the slide much like a tapestry of neon hues on an empty city street at night.\nIf you like the rose-pine-moon theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/graph_paper.html",
+    "href": "theme/graph_paper.html",
+    "title": "Graph Paper",
+    "section": "",
+    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/gaia.html",
+    "href": "theme/gaia.html",
+    "title": "Gaia",
+    "section": "",
+    "text": "Gaia is a built-in theme in Marp featuring a minimalistic color palette of cornsilk (light yellow) and deep space sparkle (greenish grey).\nIf you like the gaia theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
+  },
+  {
+    "objectID": "theme/gaia.html#class-invert",
+    "href": "theme/gaia.html#class-invert",
+    "title": "Gaia",
+    "section": "class: invert",
+    "text": "class: invert"
+  },
+  {
+    "objectID": "theme/gaia.html#class-default",
+    "href": "theme/gaia.html#class-default",
+    "title": "Gaia",
+    "section": "class: default",
+    "text": "class: default"
+  },
+  {
+    "objectID": "theme/beam.html",
+    "href": "theme/beam.html",
+    "title": "Beam",
+    "section": "",
+    "text": "The beam theme tries to mimic the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
+  },
+  {
+    "objectID": "privacy-policy.html",
+    "href": "privacy-policy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "We (maintainers of the Marp Community Themes project) do not collect any personal data from visitors of this website.\nThis website is hosted using GitHub Pages. The host may collect personal data as described in the documentation for GitHub Pages:\n\nWhen a GitHub Pages site is visited, the visitor’s IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub’s security practices, see GitHub Privacy Statement.\n\nThis website may contain links to third-party websites. Please note that once you leave this site and access these external websites, this privacy policy no longer applies.\nPlease, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information.\nWe may update this privacy policy from time to time. Any changes will be posted on this page with a revised effective date. If you have any questions or concerns regarding this privacy policy, please contact us at contact@rnd195.anonaddy.com. If you are one of the authors whose project is listed on this website, and you wish make any changes to your project’s feature, contact us at the aforementioned address.\nLast updated: 2024-02-03"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Marp Community Themes",
@@ -28,46 +98,11 @@
     "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
-    "objectID": "theme/beam.html",
-    "href": "theme/beam.html",
-    "title": "Beam",
-    "section": "",
-    "text": "The beam theme tries to mimic the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
-  },
-  {
     "objectID": "theme/border.html",
     "href": "theme/border.html",
     "title": "Border",
     "section": "",
     "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/dracula.html",
-    "href": "theme/dracula.html",
-    "title": "Dracula",
-    "section": "",
-    "text": "Dracula is a popular dark mode color palette for a wide range of programs. It features deep shades of purple, pink, blue, green, and black to create a visually pleasant and high-contrast aesthetic.\nIf you like the dracula theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/gaia.html",
-    "href": "theme/gaia.html",
-    "title": "Gaia",
-    "section": "",
-    "text": "Gaia is a built-in theme in Marp featuring a minimalistic color palette of cornsilk (light yellow) and deep space sparkle (greenish grey).\nIf you like the gaia theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
-  },
-  {
-    "objectID": "theme/gaia.html#class-invert",
-    "href": "theme/gaia.html#class-invert",
-    "title": "Gaia",
-    "section": "class: invert",
-    "text": "class: invert"
-  },
-  {
-    "objectID": "theme/gaia.html#class-default",
-    "href": "theme/gaia.html#class-default",
-    "title": "Gaia",
-    "section": "class: default",
-    "text": "class: default"
   },
   {
     "objectID": "theme/gradient.html",
@@ -91,48 +126,6 @@
     "text": "class: default"
   },
   {
-    "objectID": "theme/graph_paper.html",
-    "href": "theme/graph_paper.html",
-    "title": "Graph Paper",
-    "section": "",
-    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/uncover.html",
-    "href": "theme/uncover.html",
-    "title": "Uncover",
-    "section": "",
-    "text": "Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements.\nIf you like the uncover theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
-  },
-  {
-    "objectID": "theme/uncover.html#class-invert",
-    "href": "theme/uncover.html#class-invert",
-    "title": "Uncover",
-    "section": "class: invert",
-    "text": "class: invert"
-  },
-  {
-    "objectID": "theme/uncover.html#class-default",
-    "href": "theme/uncover.html#class-default",
-    "title": "Uncover",
-    "section": "class: default",
-    "text": "class: default"
-  },
-  {
-    "objectID": "privacy-policy.html",
-    "href": "privacy-policy.html",
-    "title": "Privacy Policy",
-    "section": "",
-    "text": "We (maintainers of the Marp Community Themes project) do not collect any personal data from visitors of this website.\nThis website is hosted using GitHub Pages. The host may collect personal data as described in the documentation for GitHub Pages:\n\nWhen a GitHub Pages site is visited, the visitor’s IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub’s security practices, see GitHub Privacy Statement.\n\nThis website may contain links to third-party websites. Please note that once you leave this site and access these external websites, this privacy policy no longer applies.\nPlease, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information.\nWe may update this privacy policy from time to time. Any changes will be posted on this page with a revised effective date. If you have any questions or concerns regarding this privacy policy, please contact us at contact@rnd195.anonaddy.com. If you are one of the authors whose project is listed on this website, and you wish make any changes to your project’s feature, contact us at the aforementioned address.\nLast updated: 2024-02-03"
-  },
-  {
-    "objectID": "theme/rose-pine.html",
-    "href": "theme/rose-pine.html",
-    "title": "Rosé Pine",
-    "section": "",
-    "text": "This theme implements the Rosé Pine color palette for Marp. It features soft natural colors with a dark background, offering a soothing aesthetic to your presentation slides.\nIf you like the rose-pine theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
     "objectID": "theme/rose-pine-dawn.html",
     "href": "theme/rose-pine-dawn.html",
     "title": "Rosé Pine Dawn",
@@ -140,10 +133,10 @@
     "text": "This theme implements the Dawn variant of the Rosé Pine color palette for Marp. It features soft natural colors with a light background and illustrates that familiar feeling of a waking up early on a sunny day.\nIf you like the rose-pine-dawn theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
-    "objectID": "theme/rose-pine-moon.html",
-    "href": "theme/rose-pine-moon.html",
-    "title": "Rosé Pine Moon",
+    "objectID": "theme/rose-pine.html",
+    "href": "theme/rose-pine.html",
+    "title": "Rosé Pine",
     "section": "",
-    "text": "This theme implements the Moon variant of the Rosé Pine color palette for Marp. It features a dark background with soft natural colors illuminating the slide much like a tapestry of neon hues on an empty city street at night.\nIf you like the rose-pine-moon theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "This theme implements the Rosé Pine color palette for Marp. It features soft natural colors with a dark background, offering a soothing aesthetic to your presentation slides.\nIf you like the rose-pine theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   }
 ]

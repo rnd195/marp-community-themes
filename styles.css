@@ -1,9 +1,13 @@
 /* css styles */
 .quarto-title-banner {
-	background: #6C6D87
+	background: #6C6D87;
 }
 
-.navbar-dark {
+h1.title {
+	color: #fdfeff;
+}
+
+.navbar {
 	background-color: #6C6D87
 }
 
