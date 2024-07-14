@@ -56,6 +56,10 @@ This theme is based on the `default` Marp theme but contains some notable change
 - By default, images are left-aligned.
 - The `center` keywords centers the image.
 
+# Privacy notice
+
+Please, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
+
 # License
 
 This theme is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE).

@@ -60,7 +60,9 @@ The `graph_paper` theme features a subtle graph paper-like background with dark 
 
 The tables are centered by default.
 
+# Privacy notice
 
+Please, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
 
 # License
 

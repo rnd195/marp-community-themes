@@ -52,6 +52,10 @@ If you like the `academic` theme and wish to show support to the author(s), plea
 
 Blockquotes (i.e., `> text`) are treated as footnotes.
 
+# Privacy notice
+
+Please, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
+
 # License
 
 This theme is licensed under the [MIT License](https://github.com/kaisugi/marp-theme-academic/blob/main/LICENSE).

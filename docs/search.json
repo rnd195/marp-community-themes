@@ -32,7 +32,7 @@
     "href": "theme/graph_paper.html",
     "title": "Graph Paper",
     "section": "",
-    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/gaia.html",
@@ -95,14 +95,14 @@
     "href": "theme/academic.html",
     "title": "Academic",
     "section": "",
-    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/border.html",
     "href": "theme/border.html",
     "title": "Border",
     "section": "",
-    "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/gradient.html",

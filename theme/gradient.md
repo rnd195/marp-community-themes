@@ -66,6 +66,10 @@ This theme is based on the `default` Marp theme. The background on each slide is
 
 - Blue variant of the `gradient` theme.
 
+# Privacy notice
+
+Please, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
+
 # License
 
 This theme is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE).
