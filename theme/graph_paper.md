@@ -66,4 +66,4 @@ Please, be aware that by using this CSS theme you import fonts from the Google F
 
 # License
 
-This theme is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE).
+This theme is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE).
