@@ -1,3 +1,5 @@
+[![Part of Awesome Marp](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/marp-team/awesome-marp)
+
 # Marp Community Themes
 
 This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
@@ -5,6 +7,10 @@ This is a community-maintained theme gallery for [Marp](https://marp.app/). For 
 The website is built using [Quarto](https://quarto.org/) and it is inspired by the Typora [theme gallery](https://theme.typora.io/).
 
 Feel free to provide any suggestions in the issues tab. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.
+
+> [!TIP]
+>
+> If you're looking for the source code of the website, check out the  [`gh-pages`](https://github.com/rnd195/marp-community-themes/tree/gh-pages) branch!
 
 # Installation / Usage
 
