@@ -25,7 +25,7 @@
     "href": "theme/rose-pine-moon.html",
     "title": "Rosé Pine Moon",
     "section": "",
-    "text": "This theme implements the Moon variant of the Rosé Pine color palette for Marp. It features a dark background with soft natural colors illuminating the slide much like a tapestry of neon hues on an empty city street at night.\nIf you like the rose-pine-moon theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "This theme implements the Moon variant of the Rosé Pine color palette for Marp. It features a dark background with soft natural colors.\nIf you like the rose-pine-moon theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/graph_paper.html",
@@ -60,7 +60,7 @@
     "href": "theme/beam.html",
     "title": "Beam",
     "section": "",
-    "text": "The beam theme tries to mimic the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
+    "text": "The beam theme is inspired by the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
   },
   {
     "objectID": "privacy-policy.html",
@@ -130,13 +130,13 @@
     "href": "theme/rose-pine-dawn.html",
     "title": "Rosé Pine Dawn",
     "section": "",
-    "text": "This theme implements the Dawn variant of the Rosé Pine color palette for Marp. It features soft natural colors with a light background and illustrates that familiar feeling of a waking up early on a sunny day.\nIf you like the rose-pine-dawn theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "This theme implements the Dawn variant of the Rosé Pine color palette for Marp. It features soft natural colors with a light background.\nIf you like the rose-pine-dawn theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/rose-pine.html",
     "href": "theme/rose-pine.html",
     "title": "Rosé Pine",
     "section": "",
-    "text": "This theme implements the Rosé Pine color palette for Marp. It features soft natural colors with a dark background, offering a soothing aesthetic to your presentation slides.\nIf you like the rose-pine theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "This theme implements the Rosé Pine color palette for Marp. It features soft natural colors with a dark background.\nIf you like the rose-pine theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   }
 ]
