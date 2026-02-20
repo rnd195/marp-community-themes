@@ -1,5 +1,25 @@
+# Quarto files
 /.quarto/
-.Rproj.user/
-.Rhistory
-
+_site/
+_TODO.md
 **/*.quarto_ipynb
+
+# R files
+.Rhistory
+.Renviron
+.RData
+.Rproj.user/
+
+# Python files
+*_cache/
+cache/
+.venv/
+.idea/
+__pycache__/
+
+# Other
+*_original
+log/
+*.log
+
+

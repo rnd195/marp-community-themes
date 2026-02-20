@@ -18,7 +18,7 @@ website:
         href: https://quarto.org/
         target: "_blank"
   search: false
-  favicon: icon.png
+  favicon: resources/icon.png
   navbar:
     right:
       - text: "About"
@@ -35,7 +35,7 @@ website:
 format:
   html:
     theme: 
-        - custom.scss
-    css: styles.css
+        - css/custom.scss
+    css: css/styles.css
 
 
