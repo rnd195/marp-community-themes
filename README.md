@@ -21,7 +21,7 @@ After clicking the "Download CSS" button on any theme's page, your browser likel
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for `markdown.marp.themes`
 3. Add a URL or a local path to the `.css` file
-   - URL: refer to [this discussion](https://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github/) about linking to files on GitHub
+   - URL: please, consider forking the repository and hosting the CSS files using, for example, GitHub Pages instead of linking to the raw file on GitHub ([reasoning](https://stackoverflow.com/a/52921967))
    - Local path example: `./assets/theme_name.css` (theme needs to be somewhere in the project's directory)
 
 4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
