@@ -1,10 +1,6 @@
-website/.Rhistory
-website/.Rproj.user/
-.Rproj.user/
-post.md
-website/.quarto/
-website/_todo.md
-.quarto/
-.Rhistory
-notes.txt
+# Specific files and extensions
 *.afphoto~lock~
+TODO.md
+
+# Folders
+work-in-progress-theme/
