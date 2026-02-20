@@ -57,6 +57,8 @@ Not centered by default. Writing `center` in the alt text aligns the image, i.e.
 
 Inline code: `print("Hello")`
 
+Block of code:
+
 ```r
 for (i in 1:100) {
   print(i)

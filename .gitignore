@@ -7,3 +7,4 @@ website/_todo.md
 .quarto/
 .Rhistory
 notes.txt
+*.afphoto~lock~
