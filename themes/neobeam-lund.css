@@ -1,0 +1,23 @@
+/*!
+ * Neobeam - A modern take on LaTeX beamer | Lund University version
+ *
+ * @theme neobeam-lund
+ * @author Embracket / mikael-ros
+ *
+ * @auto-scaling true
+ * @size 16:9 1920px 1080px
+ * @size 4:3 960px 720px
+ */
+
+@import "neobeam";
+
+:root {
+    /* -- Colors -- */
+    /* Primary, and variations */
+    --primary:          #000080;
+    --saturation-multiplier: 1;
+    --desaturation-multiplier: 1.8;
+    --brightness-multiplier: 2;
+    --darkness-multiplier: 1.25;
+    --color-shift-degrees: 150;
+}
