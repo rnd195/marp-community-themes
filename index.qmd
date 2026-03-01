@@ -5,7 +5,7 @@ listing:
   sort: "title"
   type: grid
   categories: true
-  sort-ui: true
+  # sort-ui: true
   # filter-ui: false
   date-format: medium
   fields: [image, title, date, author]

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="mikael-ros">
+<meta name="dcterms.date" content="2024-03-11">
 
-<title>Marp Community Themes</title>
+<title>Neobeam – Marp Community Themes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./resources/icon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b1010ed3cd212492f61910bf2317df72.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../resources/icon.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b1010ed3cd212492f61910bf2317df72.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -55,77 +54,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-<!--  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script> -->
-<!--  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script> -->
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Marp Community Themes</span>
     </a>
   </div>
@@ -135,11 +76,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./installation.html"> 
+    <a class="nav-link" href="../installation.html"> 
 <span class="menu-text">Installation</span></a>
   </li>  
   <li class="nav-item">
@@ -161,283 +102,202 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      
-            <p class="subtitle lead">Themes for the Markdown presentation ecosystem Marp maintained by the community.</p>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Neobeam</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Light</div>
+              </div>
+                  </div>
   </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
+  <div class="quarto-title-meta">
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>mikael-ros </p>
+            </div>
     </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 11, 2024</p>
+      </div>
+    </div>
+    </div>
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="RGFyaw==">Dark <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TGlnaHQ=">Light <span class="quarto-category-count">(9)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+       <div class="about-links">
+  <a href="https://embracket.com/" class="about-link" rel="" target="_blank">
+    <i class="bi bi-person"></i>
+     <span class="about-link-text">Author’s web</span>
+  </a>
+  <a href="https://github.com/mikael-ros/" class="about-link" rel="" target="_blank">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">mikael-ros</span>
+  </a>
+  <a href="https://github.com/mikael-ros/neobeam" class="about-link" rel="" target="_blank">
+    <i class="bi bi-globe"></i>
+     <span class="about-link-text">Project homepage</span>
+  </a>
+  <a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam.css" class="about-link" rel="" target="_blank">
+    <i class="bi bi-download"></i>
+     <span class="about-link-text">Download CSS</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
+<p>The <code>neobeam</code> theme is a modern take on the LaTeX beamer. It contains several color variants and custom syntax for features such as a title page or a three-part footer.</p>
+<p>If you like the <code>neobeam</code> theme and wish to show support to the author(s), please consider <a href="https://github.com/mikael-ros/neobeam">starring the theme’s GitHub repository</a>!</p>
+<section id="screenshots" class="level1">
+<h1>Screenshots</h1>
+<p><img src="neobeam.assets/neobeam_page-0001.jpg" class="img-fluid"></p>
+<ul>
+<li><code>&lt;!-- _class: title --&gt;</code> needs to be specified for the first slide to look like this. Here is an example of what that could look like</li>
+</ul>
+<pre><code>---
+marp: true
+theme: beam
+---
+&lt;!-- _class: title --&gt;
+&lt;!-- _header: "" --&gt;
+# Title of the presentation
+Author's name
+University of XYZ
+2023-05-13</code></pre>
+<p><img src="neobeam.assets/neobeam_page-0002.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0003.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0004.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0005.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0006.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0007.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0008.jpg" class="img-fluid"></p>
+<p><img src="neobeam.assets/neobeam_page-0009.jpg" class="img-fluid"></p>
+<section id="theme-variants" class="level2">
+<h2 data-anchor-id="theme-variants">Theme variants</h2>
+<p>Click each theme name to get its CSS file. Please note that the base <code>neobeam</code> theme is required for these variants to work.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-beamer.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-beamer.css">neobeam-beamer</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-csek.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-csek.css">neobeam-csek</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-dsek.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-dsek.css">neobeam-dsek</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-ecobeam.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-ecobeam.css">neobeam-ecobeam</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-embracket.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-embracket.css">neobeam-embracket</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-lund.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-lund.css">neobeam-lund</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-neonbeam.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-neonbeam.css">neobeam-neonbeam</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="neobeam.assets/neobeam-oldenbeam.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/neobeam-oldenbeam.css">neobeam-oldenbeam</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="custom-classes-and-keywords" class="level1">
+<h1>Custom classes and keywords</h1>
+<p><code>&lt;!-- _class: title --&gt;</code></p>
+<ul>
+<li>Changes the layout of the slide to a title page.</li>
+<li>The first Heading 1 will be styled as the title.</li>
+<li>Make sure to include the underscore “_” so that your whole presentation is not made up of title pages.</li>
+<li>Use <code>&lt;!-- _header: "" --&gt;</code> to disable the header on the title page.</li>
+</ul>
+<p><code>Multi-part footer</code></p>
+<p>The footer can be divided into 2 or 3 parts using the following syntax in the presentation’s front-matter</p>
+<pre><code># 3-part
+footer: '**One**
+        **two**
+        **three**'
+# 2-part
+footer: '**One**
+        **two**'</code></pre>
+<p><code>![center](image.jpg)</code></p>
+<ul>
+<li>By default, images are left-aligned.</li>
+<li>The <code>center</code> keywords centers the image.</li>
+</ul>
+</section>
+<section id="privacy-notice" class="level1">
+<h1>Privacy notice</h1>
+<p>Please, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their <a href="https://developers.google.com/fonts/faq/privacy">Privacy FAQ</a> for more information about using their service.</p>
+</section>
+<section id="license" class="level1">
+<h1>License</h1>
+<p>This theme is licensed under the <a href="https://github.com/mikael-ros/neobeam/blob/main/LICENSE">MIT License</a>.</p>
 
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TGlnaHQ=" data-listing-date-sort="1653343200000" data-listing-file-modified-sort="1772300702354" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="./theme/academic.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/academic.assets/academic.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Academic
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-kaisugi
+</section>
+</main></div>
+    </div>
+    <img src="neobeam.assets/neobeam.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
 </div>
-<div class="listing-date">
-May 24, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TGlnaHQ=" data-listing-date-sort="1648249200000" data-listing-file-modified-sort="1772295280689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
-<a href="./theme/beam.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/beam.assets/beam.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Beam
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rnd195
-</div>
-<div class="listing-date">
-Mar 26, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TGlnaHQ=" data-listing-date-sort="1648249200000" data-listing-file-modified-sort="1772295280693" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
-<a href="./theme/border.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/border.assets/border.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Border
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rnd195
-</div>
-<div class="listing-date">
-Mar 26, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="TGlnaHQlMkNEYXJr" data-listing-date-sort="1528581600000" data-listing-file-modified-sort="1772295280695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
-<a href="./theme/gaia.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/gaia.assets/gaia.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gaia
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-marp-team
-</div>
-<div class="listing-date">
-Jun 10, 2018
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="TGlnaHQ=" data-listing-date-sort="1648249200000" data-listing-file-modified-sort="1772295280700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="./theme/gradient.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/gradient.assets/gradient.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gradient
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rnd195
-</div>
-<div class="listing-date">
-Mar 26, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="TGlnaHQ=" data-listing-date-sort="1683928800000" data-listing-file-modified-sort="1772295280700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
-<a href="./theme/graph_paper.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/graph_paper.assets/graph_paper.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Graph Paper
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rnd195
-</div>
-<div class="listing-date">
-May 13, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="TGlnaHQ=" data-listing-date-sort="1710111600000" data-listing-file-modified-sort="1772311892039" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
-<a href="./theme/neobeam.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/neobeam.assets/neobeam.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Neobeam
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-mikael-ros
-</div>
-<div class="listing-date">
-Mar 11, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="RGFyaw==" data-listing-date-sort="1671577200000" data-listing-file-modified-sort="1772295280716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
-<a href="./theme/rose-pine.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/rose-pine.assets/rose-pine.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rosé Pine
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rainbowflesh
-</div>
-<div class="listing-date">
-Dec 21, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="TGlnaHQ=" data-listing-date-sort="1671577200000" data-listing-file-modified-sort="1772295280700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<a href="./theme/rose-pine-dawn.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/rose-pine-dawn.assets/rose-pine-dawn.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rosé Pine Dawn
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rainbowflesh
-</div>
-<div class="listing-date">
-Dec 21, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="RGFyaw==" data-listing-date-sort="1671577200000" data-listing-file-modified-sort="1772295280700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<a href="./theme/rose-pine-moon.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/rose-pine-moon.assets/rose-pine-moon.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rosé Pine Moon
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-rainbowflesh
-</div>
-<div class="listing-date">
-Dec 21, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="TGlnaHQlMkNEYXJr" data-listing-date-sort="1528322400000" data-listing-file-modified-sort="1772295280716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
-<a href="./theme/uncover.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./theme/uncover.assets/uncover.png" class="thumbnail-image card-img" style="height: 12em;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Uncover
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-marp-team
-</div>
-<div class="listing-date">
-Jun 7, 2018
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -843,7 +703,7 @@ Jun 7, 2018
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./privacy-policy.html">
+    <a class="nav-link" href="../privacy-policy.html">
 <p>Privacy.</p>
 </a>
   </li>  

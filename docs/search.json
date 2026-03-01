@@ -28,11 +28,88 @@
     "text": "This theme implements the Moon variant of the Rosé Pine color palette for Marp. It features a dark background with soft natural colors.\nIf you like the rose-pine-moon theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
-    "objectID": "theme/graph_paper.html",
-    "href": "theme/graph_paper.html",
-    "title": "Graph Paper",
+    "objectID": "theme/neobeam.html",
+    "href": "theme/neobeam.html",
+    "title": "Neobeam",
     "section": "",
-    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
+    "text": "The neobeam theme is a modern take on the LaTeX beamer. It contains several color variants and custom syntax for features such as a title page or a three-part footer.\nIf you like the neobeam theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!"
+  },
+  {
+    "objectID": "theme/neobeam.html#theme-variants",
+    "href": "theme/neobeam.html#theme-variants",
+    "title": "Neobeam",
+    "section": "Theme variants",
+    "text": "Theme variants\nClick each theme name to get its CSS file. Please note that the base neobeam theme is required for these variants to work.\n\n\n\n\n\n\nneobeam-beamer\n\n\n\n\n\n\n\nneobeam-csek\n\n\n\n\n\n\n\n\n\nneobeam-dsek\n\n\n\n\n\n\n\nneobeam-ecobeam\n\n\n\n\n\n\n\n\n\nneobeam-embracket\n\n\n\n\n\n\n\nneobeam-lund\n\n\n\n\n\n\n\n\n\nneobeam-neonbeam\n\n\n\n\n\n\n\nneobeam-oldenbeam"
+  },
+  {
+    "objectID": "theme/gradient.html",
+    "href": "theme/gradient.html",
+    "title": "Gradient",
+    "section": "",
+    "text": "This theme is based on the default Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the Inter font family is used."
+  },
+  {
+    "objectID": "theme/gradient.html#class-blue",
+    "href": "theme/gradient.html#class-blue",
+    "title": "Gradient",
+    "section": "class: blue",
+    "text": "class: blue"
+  },
+  {
+    "objectID": "theme/gradient.html#class-default",
+    "href": "theme/gradient.html#class-default",
+    "title": "Gradient",
+    "section": "class: default",
+    "text": "class: default"
+  },
+  {
+    "objectID": "theme/border.html",
+    "href": "theme/border.html",
+    "title": "Border",
+    "section": "",
+    "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "theme/academic.html",
+    "href": "theme/academic.html",
+    "title": "Academic",
+    "section": "",
+    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
+  },
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Installation / Usage",
+    "section": "",
+    "text": "After clicking the “Download CSS” button on any theme’s page, your browser likely loads the .css file instead of downloading it. You can save the .css file locally using Ctrl + S.\n\nMarp for VS Code Extension\n\nOpen Settings in VSCode (Ctrl + ,)\nSearch for “Marp: Themes” or “markdown.marp.themes”\nAfter downloading the theme, add its local path/to/the/file.css in the settings. Alternatively, add a trustworthy remote path to the CSS file\n\nLinks: please, consider forking the repository and hosting the CSS files using, for example, GitHub Pages instead of linking to the raw file on GitHub (reasoning)\n\nEnable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:\n\n---\nmarp: true\ntheme: theme_name\n---\nFor additional settings (such as size or paginate), follow the official documentation.\n\n\nMarp CLI\n\nPut the .css theme file in the directory of your Markdown document\nUse the --theme parameter during the export and specify the path to the .css file\n\ne.g.:\n\n\nmarp --theme ./assets/theme_name.css document.md -o document.pdf"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. The goal of this project is to give users an easily accessible way to style their presentations. For more information about how to create themes for Marp, see the official documentation.\nThe website is built using Quarto and it is inspired by the Typora theme gallery.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marp Community Themes",
+    "section": "",
+    "text": "Academic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGaia\n\n\n\nmarp-team\n\n\nJun 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeobeam\n\n\n\nmikael-ros\n\n\nMar 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine Dawn\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine Moon\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncover\n\n\n\nmarp-team\n\n\nJun 7, 2018\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "privacy-policy.html",
+    "href": "privacy-policy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "We (maintainers of the Marp Community Themes project) do not collect any personal data from visitors of this website.\nThis website is hosted using GitHub Pages. The host may collect personal data as described in the documentation for GitHub Pages:\n\nWhen a GitHub Pages site is visited, the visitor’s IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub’s security practices, see GitHub Privacy Statement.\n\nThis website may contain links to third-party websites. Please note that once you leave this site and access these external websites, this privacy policy no longer applies.\nPlease, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information.\nWe may update this privacy policy from time to time. Any changes will be posted on this page with a revised effective date. If you have any questions or concerns regarding this privacy policy, please contact us at contact@rnd195.anonaddy.com. If you are one of the authors whose project is listed on this website, and you wish make any changes to your project’s feature, contact us at the aforementioned address.\nLast updated: 2024-02-03"
+  },
+  {
+    "objectID": "theme/beam.html",
+    "href": "theme/beam.html",
+    "title": "Beam",
+    "section": "",
+    "text": "The beam theme is inspired by the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
   },
   {
     "objectID": "theme/gaia.html",
@@ -56,74 +133,11 @@
     "text": "class: default"
   },
   {
-    "objectID": "theme/beam.html",
-    "href": "theme/beam.html",
-    "title": "Beam",
+    "objectID": "theme/graph_paper.html",
+    "href": "theme/graph_paper.html",
+    "title": "Graph Paper",
     "section": "",
-    "text": "The beam theme is inspired by the look of LaTeX’s beamer class. As such, it is intended to be used with the Computer Modern Unicode font family. It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the GitHub repository of the theme.\n\nScreenshots\n\n\n&lt;!-- _class: title --&gt; needs to be specified for the first slide to look like this. Here is an example of what it could look like\n\n---\nmarp: true\ntheme: beam\n---\n&lt;!-- _class: title --&gt;\n# Title of the presentation\nAuthor's name\nUniversity of XYZ\n2022-06-19\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: title --&gt;\n\nChanges the layout of the slide to a title page.\nThe first Heading 1 will be styled as the title.\nMake sure to include the underscore “_” so that your whole presentation is not made up of title pages.\nThe title should be no more than 2 lines long, otherwise, it spills over other text.\n\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nLicense\nThe beamer-inspired beam theme is licensed under GNU GPLv3."
-  },
-  {
-    "objectID": "privacy-policy.html",
-    "href": "privacy-policy.html",
-    "title": "Privacy Policy",
-    "section": "",
-    "text": "We (maintainers of the Marp Community Themes project) do not collect any personal data from visitors of this website.\nThis website is hosted using GitHub Pages. The host may collect personal data as described in the documentation for GitHub Pages:\n\nWhen a GitHub Pages site is visited, the visitor’s IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub’s security practices, see GitHub Privacy Statement.\n\nThis website may contain links to third-party websites. Please note that once you leave this site and access these external websites, this privacy policy no longer applies.\nPlease, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information.\nWe may update this privacy policy from time to time. Any changes will be posted on this page with a revised effective date. If you have any questions or concerns regarding this privacy policy, please contact us at contact@rnd195.anonaddy.com. If you are one of the authors whose project is listed on this website, and you wish make any changes to your project’s feature, contact us at the aforementioned address.\nLast updated: 2024-02-03"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Marp Community Themes",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\nkaisugi\n\n\nMay 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeam\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorder\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGaia\n\n\n\nmarp-team\n\n\nJun 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nGradient\n\n\n\nrnd195\n\n\nMar 26, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Paper\n\n\n\nrnd195\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine Dawn\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosé Pine Moon\n\n\n\nrainbowflesh\n\n\nDec 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncover\n\n\n\nmarp-team\n\n\nJun 7, 2018\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. The goal of this project is to give users an easily accessible way to style their presentations. For more information about how to create themes for Marp, see the official documentation.\nThe website is built using Quarto and it is inspired by the Typora theme gallery.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195."
-  },
-  {
-    "objectID": "installation.html",
-    "href": "installation.html",
-    "title": "Installation / Usage",
-    "section": "",
-    "text": "After clicking the “Download CSS” button on any theme’s page, your browser likely loads the .css file instead of downloading it. You can save the .css file locally using Ctrl + S.\n\nMarp for VS Code Extension\n\nOpen Settings in VSCode (Ctrl + ,)\nSearch for “Marp: Themes” or “markdown.marp.themes”\nAfter downloading the theme, add its local path/to/the/file.css in the settings. Alternatively, add a trustworthy remote path to the CSS file\n\nLinks: please, consider forking the repository and hosting the CSS files using, for example, GitHub Pages instead of linking to the raw file on GitHub (reasoning)\n\nEnable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:\n\n---\nmarp: true\ntheme: theme_name\n---\nFor additional settings (such as size or paginate), follow the official documentation.\n\n\nMarp CLI\n\nPut the .css theme file in the directory of your Markdown document\nUse the --theme parameter during the export and specify the path to the .css file\n\ne.g.:\n\n\nmarp --theme ./assets/theme_name.css document.md -o document.pdf"
-  },
-  {
-    "objectID": "theme/academic.html",
-    "href": "theme/academic.html",
-    "title": "Academic",
-    "section": "",
-    "text": "The academic theme features a clean design with a maroon ribbon on top. Additionally, it leverages the Markdown blockquote syntax (e.g., &gt; text) to enable footnotes. The theme imports Noto Sans with support for Japanese and Source Code Pro.\nIf you like the academic theme and wish to show support to the author(s), please consider starring the theme’s GitHub repository!\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nBlockquotes (i.e., &gt; text) are treated as footnotes.\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/border.html",
-    "href": "theme/border.html",
-    "title": "Border",
-    "section": "",
-    "text": "This theme is based on the default Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the Inter font family is used.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
-  },
-  {
-    "objectID": "theme/gradient.html",
-    "href": "theme/gradient.html",
-    "title": "Gradient",
-    "section": "",
-    "text": "This theme is based on the default Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the Inter font family is used."
-  },
-  {
-    "objectID": "theme/gradient.html#class-blue",
-    "href": "theme/gradient.html#class-blue",
-    "title": "Gradient",
-    "section": "class: blue",
-    "text": "class: blue"
-  },
-  {
-    "objectID": "theme/gradient.html#class-default",
-    "href": "theme/gradient.html#class-default",
-    "title": "Gradient",
-    "section": "class: default",
-    "text": "class: default"
+    "text": "The graph_paper theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The Work Sans font family is imported and utilized to enhance the visual appeal and readability of the text.\n\nScreenshots\n\n\n\n\n\n\n\n\n\n\n\nCustom classes and keywords\n&lt;!-- _class: tinytext --&gt;\n\nMakes most text on the slide much smaller.\nMight be useful for references.\n\n![center](image.jpg)\n\nBy default, images are left-aligned.\nThe center keywords centers the image.\n\nThe tables are centered by default.\n\n\nPrivacy notice\nPlease, be aware that by using this CSS theme you import fonts from the Google Fonts service. Refer to their Privacy FAQ for more information about using their service.\n\n\nLicense\nThis theme is licensed under the MIT License."
   },
   {
     "objectID": "theme/rose-pine-dawn.html",
