@@ -3,7 +3,6 @@ title: "Beam"
 author: "rnd195"
 categories: [Light]
 image: "beam.assets/beam.png"
-date: "2022-03-26"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/beamer", "/beam", "/theme/beamer"]
 ---
 
-The `beam` theme is inspired by the look of LaTeX's `beamer` class. As such, it is intended to be used with the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en). It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the [GitHub repository](https://github.com/rnd195/my-marp-themes/blob/live/how-to/beam_custom.md) of the theme.
+The `beam` theme by [rnd195](https://github.com/rnd195/) is inspired by the look of LaTeX's `beamer` class. As such, it is intended to be used with the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en). It also provides support for a title page. To change the default colors from blue to anything else, please, follow the guide in the [GitHub repository](https://github.com/rnd195/my-marp-themes/blob/live/how-to/beam_custom.md) of the theme.
 
 # Screenshots
 

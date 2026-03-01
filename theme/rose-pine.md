@@ -3,7 +3,6 @@ title: "Rosé Pine"
 author: "rainbowflesh"
 categories: [Dark]
 image: "rose-pine.assets/rose-pine.png"
-date: "2022-12-21"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/rose-pine"]
 ---
 
-This theme implements the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features soft natural colors with a dark background.
+The `rose-pine` theme by [rainbowflesh](https://github.com/rainbowflesh/) implements the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features soft natural colors with a dark background.
 
 If you like the `rose-pine` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/rainbowflesh/Rose-Pine-For-Marp)!
 

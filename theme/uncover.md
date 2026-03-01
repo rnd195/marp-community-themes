@@ -3,7 +3,6 @@ title: "Uncover"
 author: "marp-team"
 categories: [Light, Dark]
 image: "uncover.assets/uncover.png"
-date: "2018-06-07"
 about:
   template: solana
   links:
@@ -20,7 +19,7 @@ about:
 aliases: ["/uncover"]
 ---
 
-Uncover is a built-in theme in Marp featuring a stylish black and white color palette with centered elements.
+Uncover is a built-in theme in Marp made by the [marp-team](https://github.com/marp-team) and features a stylish black & white color palette with centered elements.
 
 If you like the `uncover` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/marp-team/marp)!
 

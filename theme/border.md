@@ -3,7 +3,6 @@ title: "Border"
 author: "rnd195"
 categories: [Light]
 image: "border.assets/border.png"
-date: "2022-03-26"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/border"]
 ---
 
-This theme is based on the `default` Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used.
+The `border` theme by [rnd195](https://github.com/rnd195/) is based on the `default` Marp theme but contains some notable changes. Each slide has a dark-gray border and also a white-to-gray linear gradient as its background. As the main font, the [Inter](https://github.com/rsms/inter) font family is used.
 
 # Screenshots
 

@@ -3,7 +3,6 @@ title: "Gradient"
 author: "rnd195"
 categories: [Light]
 image: "gradient.assets/gradient.png"
-date: "2022-03-26"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/gradient"]
 ---
 
-This theme is based on the `default` Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the [Inter](https://github.com/rsms/inter) font family is used.
+The `gradient` theme by [rnd195](https://github.com/rnd195/) is based on the `default` Marp theme. The background on each slide is a colorful diagonal gradient—either shades of blue or pink to light green. As the main font, the [Inter](https://github.com/rsms/inter) font family is used.
 
 # Screenshots
 

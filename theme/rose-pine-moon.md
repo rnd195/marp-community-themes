@@ -3,7 +3,6 @@ title: "Rosé Pine Moon"
 author: "rainbowflesh"
 categories: [Dark]
 image: "rose-pine-moon.assets/rose-pine-moon.png"
-date: "2022-12-21"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/rose-pine-moon"]
 ---
 
-This theme implements the Moon variant of the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features a dark background with soft natural colors.
+The `rose-pine-moon` theme by [rainbowflesh](https://github.com/rainbowflesh/) implements the Moon variant of the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features a dark background with soft natural colors.
 
 If you like the `rose-pine-moon` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/rainbowflesh/Rose-Pine-For-Marp)!
 

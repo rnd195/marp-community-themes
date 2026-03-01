@@ -3,7 +3,6 @@ title: "Graph Paper"
 author: "rnd195"
 categories: [Light]
 image: "graph_paper.assets/graph_paper.png"
-date: "2023-05-13"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/graph_paper"]
 ---
 
-The `graph_paper` theme features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) font family is imported and utilized to enhance the visual appeal and readability of the text.
+The `graph_paper` theme by [rnd195](https://github.com/rnd195/) features a subtle graph paper-like background with dark text mixed with white elements (e.g., code blocks or block quotes). The [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) font family is imported and utilized to enhance the visual appeal and readability of the text.
 
 
 

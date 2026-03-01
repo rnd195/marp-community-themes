@@ -71,3 +71,11 @@ pre {
 div.quarto-about-solana .about-entity {
   text-align: left;
 }
+
+/* Remove the author banner due to information duplicity */
+div.quarto-title-meta {
+	display: none !important;
+}
+div.quarto-about-solana {
+	padding-top: 0.5em !important;
+}

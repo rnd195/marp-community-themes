@@ -3,7 +3,6 @@ title: "Rosé Pine Dawn"
 author: "rainbowflesh"
 categories: [Light]
 image: "rose-pine-dawn.assets/rose-pine-dawn.png"
-date: "2022-12-21"
 about:
   template: solana
   links:
@@ -22,7 +21,7 @@ about:
 aliases: ["/rose-pine-dawn"]
 ---
 
-This theme implements the Dawn variant of the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features soft natural colors with a light background.
+The `rose-pine-dawn` theme by [rainbowflesh](https://github.com/rainbowflesh/) implements the Dawn variant of the [Rosé Pine](https://rosepinetheme.com/) color palette for Marp. It features soft natural colors with a light background.
 
 If you like the `rose-pine-dawn` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/rainbowflesh/Rose-Pine-For-Marp)!
 

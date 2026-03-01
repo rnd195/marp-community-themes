@@ -3,7 +3,6 @@ title: "Neobeam"
 author: "mikael-ros"
 categories: [Light]
 image: "neobeam.assets/neobeam.png"
-date: "2024-03-11"
 about:
   template: solana
   links:
@@ -25,7 +24,7 @@ about:
       target: "_blank"
 ---
 
-The `neobeam` theme is a modern take on the LaTeX beamer. It contains several color variants and custom syntax for features such as a title page or a three-part footer.
+The `neobeam` theme by [mikael-ros](https://github.com/mikael-ros/) is a modern take on the LaTeX beamer. It contains several color variants and custom syntax for features such as a title page or a three-part footer.
 
 If you like the `neobeam` theme and wish to show support to the author(s), please consider [starring the theme's GitHub repository](https://github.com/mikael-ros/neobeam)!
 
