@@ -3,3 +3,5 @@ This directory contains all the CSS themes together with their respective licens
 Firstly, having all themes in one folder is simply convenient. The structure is predictable and users can simply utilize the entire gallery in one place. 
 
 Secondly, any minor modifications made to the original repositories may result in broken links, which is certainly undesirable. Moreover, I believe that linking the CSS files directly does not lower the traffic and attention each author gets. Each raw CSS file is a *dead end* which links to the original repository potentially only through the URL. To nudge the users in showing support to the authors of the themes they like, I further included a message in the description of the theme asking them to star the repository of the respective themes.
+
+If any of the authors of the featured themes would prefer a different arrangement, feel free to write me (rnd195) an email or open an issue in the issues tab.

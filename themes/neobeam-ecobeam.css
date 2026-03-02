@@ -1,0 +1,23 @@
+/*!
+ * Neobeam - A modern take on LaTeX beamer | Faithful beamer version
+ *
+ * @theme neobeam-ecobeam
+ * @author Embracket / mikael-ros
+ *
+ * @auto-scaling true
+ * @size 16:9 1920px 1080px
+ * @size 4:3 960px 720px
+ */
+
+@import "neobeam";
+
+:root {
+    /* -- Colors -- */
+    /* Primary, and variations */
+    --primary:          #608534;
+    --saturation-multiplier: .5;
+    --desaturation-multiplier: 1.25;
+    --brightness-multiplier: 1.12;
+    --darkness-multiplier: 1.1;
+    --color-shift-degrees: 120;
+}
