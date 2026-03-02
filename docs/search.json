@@ -88,7 +88,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. The goal of this project is to give users an easily accessible way to style their presentations. For more information about how to create themes for Marp, see the official documentation.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195 and it’s built using Quarto."
+    "text": "This is a community-maintained theme gallery for the Markdown presentation ecosystem Marp. The goal of this project is to give users a curated selection of themes from various authors in the theming community.\nFeel free to provide any suggestions in the issues tab on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.\nThe theme gallery is currently being developed by rnd195 and it’s built using Quarto."
   },
   {
     "objectID": "index.html",
