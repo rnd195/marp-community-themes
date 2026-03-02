@@ -2,11 +2,11 @@
 
 # Marp Community Themes
 
-This is a community-maintained theme gallery for [Marp](https://marp.app/). For more information about how to create themes for Marp, see the official [documentation](https://marpit.marp.app/theme-css).
+This is a community-maintained theme gallery for the Markdown presentation ecosystem [Marp](https://marp.app/). The goal of this project is to give users a curated selection of themes from various authors in the theming community.
 
-The website is built using [Quarto](https://quarto.org/) and it is inspired by the Typora [theme gallery](https://theme.typora.io/).
+Feel free to provide any suggestions in the [issues tab](https://github.com/rnd195/marp-community-themes/issues) on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.
 
-Feel free to provide any suggestions in the issues tab. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.
+The theme gallery is currently being developed by [rnd195](https://github.com/rnd195/) and it’s built using [Quarto](https://quarto.org/).
 
 > [!TIP]
 >
