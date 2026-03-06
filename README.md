@@ -66,10 +66,10 @@ https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09b
 https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-round.svg
 ```
 
-If using in a readme (or any markdown file), you can make the image a link by writing:
+To display the badges in your README (or any markdown file), you can turn the badge into a link by writing:
 
 ```markdown
-[![Community theme](<chosen image link>)](https://rnd195.github.io/marp-community-themes/)
+[![Community theme](<chosen badge link>)](https://rnd195.github.io/marp-community-themes/)
 ```
 
 # Submitting themes
@@ -80,7 +80,7 @@ Work in progress. Not accepting submissions at the moment, sorry.
 
 # License
 
-This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/live/LICENSE). License files of the featured themes can be found in the `themes/licenses/` directory, and license files of the badges can be found in the `badges`directory.
+This software is licensed under the [MIT License](https://github.com/rnd195/marp-community-themes/blob/live/LICENSE). License files of the featured themes can be found in the `themes/licenses/` directory, and license files of the badges can be found in the `badges` directory.
 
 
 
