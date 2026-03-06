@@ -18,8 +18,9 @@ website:
         href: https://quarto.org/
         target: "_blank"
   search: false
-  favicon: resources/icon.png
+  favicon: resources/icon.svg
   navbar:
+    logo: resources/icon.png
     right:
       - text: "About"
         href: about.qmd
