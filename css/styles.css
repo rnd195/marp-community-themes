@@ -79,3 +79,10 @@ div.quarto-title-meta {
 div.quarto-about-solana {
 	padding-top: 0.5em !important;
 }
+
+/* Crude way to fix logo and title text overlapping for compact screens */
+@media (max-width: 960px) {
+	.navbar-logo {
+		padding-right: 20px;
+	}
+}
