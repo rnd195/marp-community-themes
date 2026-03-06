@@ -48,6 +48,25 @@ marp --theme ./assets/theme_name.css document.md -o document.pdf
 
 
 
+# Badges
+
+
+This theme gallery has its own badges, generously contributed by [mikael-ros](https://github.com/mikael-ros/). If your theme is featured in the theme gallery, feel free to add one of the two badges to the top of your README file of your repository or wherever else you see fit! Below are links to the SVG files on [jsDelivr](https://www.jsdelivr.com/):
+
+
+![badge-square](https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-square.svg)
+
+```
+https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-square.svg
+```
+
+![badge-round](https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-round.svg)
+
+```
+https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-round.svg
+```
+
+
 # Submitting themes
 
 Work in progress. Not accepting submissions at the moment, sorry.
@@ -63,3 +82,5 @@ This software is licensed under the [MIT License](https://github.com/rnd195/marp
 # Privacy notice
 
 Please, be aware that some of the featured themes import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information.
+
+Furthermore, the community themes badges are served using jsDelivr, which is subject to the [jsDelivr privacy policy](https://www.jsdelivr.com/terms/privacy-policy).
