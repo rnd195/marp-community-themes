@@ -66,7 +66,7 @@ https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09b
 https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-round.svg
 ```
 
-To display the badges in your README (or any markdown file), you can turn the badge into a link by writing:
+To display the badges in your README (or any markdown file) with a link to the Community Themes gallery, consider writing:
 
 ```markdown
 [![Community theme](<chosen badge link>)](https://rnd195.github.io/marp-community-themes/)
