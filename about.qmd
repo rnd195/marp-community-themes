@@ -3,8 +3,10 @@ title: "About"
 title-block-banner: true
 ---
 
-This is a community-maintained theme gallery for the Markdown presentation ecosystem [Marp](https://marp.app/). The goal of this project is to give users a curated selection of themes from various authors in the theming community.
+This is a community-maintained and independent theme gallery for the Markdown presentation ecosystem [Marp](https://marp.app/). It is not affiliated with the official Marp project.
 
-Feel free to provide any suggestions in the [issues tab](https://github.com/rnd195/marp-community-themes/issues) on GitHub. Please note that this theme gallery is an independent, community-maintained project and is not affiliated with the official Marp project.
+The goal of this project is to give users a curated selection of themes from various authors in the theming community. Feel free to provide any suggestions in the [issues tab](https://github.com/rnd195/marp-community-themes/issues) on GitHub.
+
+This project is featured in the [Awesome Marp](https://github.com/marp-team/awesome-marp#themes) repository.
 
 The theme gallery is currently being developed by [rnd195](https://github.com/rnd195/) and it’s built using [Quarto](https://quarto.org/).
