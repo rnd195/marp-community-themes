@@ -91,3 +91,31 @@ div.quarto-about-solana {
 code.sourceCode.markdown {
   text-wrap: auto;  
 }
+
+/* Theme image in compact view improvements */
+@media (max-width: 991.98px) {
+	img.about-image {
+    max-width: 75%;
+		width: auto !important;
+    align-self: center;
+	}
+}
+
+/* Navbar text in compact mode improvements */
+@media (max-width: 991.98px) {
+	span.navbar-title {
+    font-size: 13pt;
+    overflow: clip !important;
+    vertical-align: middle;
+    display: flex;
+	}
+}
+body.nav-fixed.quarto-light {
+    background: linear-gradient(to bottom, #6C6D87 82px, #FFFFFF 82px, #FFFFFF 100%);
+    background-repeat: no-repeat;
+}
+@media (max-width: 991.98px) {
+  .navbar-brand-container {
+    max-width: calc(100% - 50px);
+  }
+}
