@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "*.ipynb"
+    - "!template.md"
+    - "!README.md"
 
 website:
   title: "Marp Community Themes"
@@ -38,5 +44,3 @@ format:
     theme: 
         - css/custom.scss
     css: css/styles.css
-
-

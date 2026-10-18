@@ -1,4 +1,4 @@
-# Simple check if we are in the right folder because exiftool is next
+# Simple check if we are in the right folder
 if (-Not (Test-Path "_quarto.yml"))
 {
 	Write-Host "I am in the wrong folder. Exiting in 5 seconds."

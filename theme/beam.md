@@ -27,21 +27,8 @@ The `beam` theme by [rnd195](https://github.com/rnd195/) is inspired by the look
 
 ![](beam.assets/beam_page-0001.jpg)
 
-- `<!-- _class: title -->` needs to be specified for the first slide to look like this. Here is an example of what it could look like
+- `<!-- _class: title -->` needs to be specified for the first slide to look like this. See **Markdown template** below
 
-```
----
-marp: true
-theme: beam
----
-<!-- _class: title -->
-
-# Title of the presentation
-
-Author's name
-University of XYZ
-2022-06-19
-```
 
 ![](beam.assets/beam_page-0002.jpg)
 
@@ -79,6 +66,110 @@ University of XYZ
 
 - By default, images are left-aligned.
 - The `center` keywords centers the image.
+
+
+
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Markdown template
+
+``````md
+---
+marp: true
+paginate: true
+theme: beam
+size: 4:3
+header: This is a header
+footer: This is a footer
+title: Testing MD file
+---
+
+<!-- _class: title -->
+# Title of the presentation
+
+Author's name
+University of XYZ
+2023-05-13
+
+---
+
+# Text
+
+**Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit. Nunc eu ante ~~sit amet~~ erat suscipit <mark>consectetur</mark>. Praesent efficitur <u>sollicitudin</u> nisi.
+
+> Vestibulum et ipsum et nibh egestas molestie sed vel orci.
+
+---
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+---
+
+# Lists
+
+1. This is the first step
+2. Followed by the second step
+
+- Point one
+- Point two
+  - Sub-point two
+
+---
+
+# Image
+
+An image of a flower in our garden.
+
+![center](https://raw.githubusercontent.com/rnd195/marp-community-themes/refs/heads/live/template/flower.jpg)
+
+Not centered by default. Writing `center` in the alt text aligns the image, i.e. `![center](flower.jpg)`.
+
+---
+
+# Code
+
+Inline code: `print("Hello")`
+
+Block of code:
+
+```r
+for (i in 1:100) {
+  print(i)
+} 
+```
+
+---
+
+# Math
+
+$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-0.5 \left( \frac{x-\mu}{\sigma} \right)^2}
+$$
+
+---
+
+# Table
+
+| Customer ID | Attribute X | Attribute Y |
+| ----------- | ----------- | ----------- |
+| 101         | 3           | 0.1         |
+| 102         | 4           | 0.1         |
+| 103         | 2           | 0.3         |
+
+---
+<!-- _class: tinytext --->
+# Tinytext class
+
+Use `<!-- _class: tinytext --->` to make the text on the slide tiny. Might be useful for references at the end of the presentation.
+
+``````
+:::
+
+
 
 # License
 

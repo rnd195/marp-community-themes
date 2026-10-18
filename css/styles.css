@@ -86,3 +86,8 @@ div.quarto-about-solana {
 		padding-right: 20px;
 	}
 }
+
+/* Text wrapping in code inside callout blocks */
+code.sourceCode.markdown {
+  text-wrap: auto;  
+}
